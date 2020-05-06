@@ -1,0 +1,333 @@
+15:47:27  [INFO ] : chrome浏览器启动
+17:35:59  [INFO ] : 测试开始
+17:36:57  [INFO ] : 测试开始
+17:37:20  [INFO ] : chrome浏览器启动
+17:37:20  [INFO ] : ecshop登录成功！
+17:43:36  [INFO ] : 测试开始
+17:43:59  [INFO ] : chrome浏览器启动
+17:44:01  [INFO ] : ecshop登录成功！
+18:56:37  [INFO ] : 测试开始
+18:56:40  [INFO ] : chrome浏览器启动
+18:56:43  [INFO ] : ecshop登录成功！
+19:02:33  [INFO ] : 测试开始
+19:02:35  [INFO ] : 访问url失败
+19:03:20  [INFO ] : 测试开始
+19:03:43  [INFO ] : chrome浏览器启动
+19:03:46  [INFO ] : ecshop登录成功！
+19:05:50  [INFO ] : 测试开始
+19:06:13  [INFO ] : chrome浏览器启动
+19:06:16  [INFO ] : ecshop登录成功！
+19:09:07  [INFO ] : 测试开始
+19:09:30  [INFO ] : chrome浏览器启动
+19:09:33  [INFO ] : ecshop登录成功！
+19:16:25  [INFO ] : 测试开始
+19:16:26  [INFO ] : 访问url失败
+19:16:42  [INFO ] : 测试开始
+19:16:45  [INFO ] : chrome浏览器启动
+19:16:48  [INFO ] : ecshop登录成功！
+19:40:06  [INFO ] : 测试开始
+19:40:09  [INFO ] : chrome浏览器启动
+19:40:12  [INFO ] : ecshop登录成功！
+19:52:15  [INFO ] : 测试开始
+19:52:38  [INFO ] : chrome浏览器启动
+19:52:40  [INFO ] : ecshop登录成功！
+10:14:02  [INFO ] : 测试开始
+10:14:26  [INFO ] : chrome浏览器启动
+10:14:28  [INFO ] : ecshop登录成功！
+11:00:12  [INFO ] : 测试开始
+11:00:35  [INFO ] : chrome浏览器启动
+11:00:38  [INFO ] : ecshop登录成功！
+11:29:52  [INFO ] : 测试开始
+11:30:15  [INFO ] : chrome浏览器启动
+11:30:18  [INFO ] : ecshop登录成功！
+13:54:59  [INFO ] : 测试开始
+13:55:22  [INFO ] : chrome浏览器启动
+13:55:25  [INFO ] : ecshop登录成功！
+14:01:57  [INFO ] : 测试开始
+14:02:20  [INFO ] : chrome浏览器启动
+14:02:23  [INFO ] : ecshop登录成功！
+14:23:02  [INFO ] : 测试开始
+14:23:05  [INFO ] : chrome浏览器启动
+14:23:08  [INFO ] : ecshop登录成功！
+14:27:51  [INFO ] : 测试开始
+14:28:14  [INFO ] : chrome浏览器启动
+14:28:17  [INFO ] : ecshop登录成功！
+15:33:03  [INFO ] : 测试开始
+15:33:07  [INFO ] : chrome浏览器启动
+15:33:10  [INFO ] : ecshop登录成功！
+15:46:10  [INFO ] : 测试开始
+15:46:11  [INFO ] : 访问url失败
+15:46:54  [INFO ] : 测试开始
+15:47:17  [INFO ] : chrome浏览器启动
+15:47:20  [INFO ] : ecshop登录成功！
+16:11:01  [INFO ] : 测试开始
+16:11:24  [INFO ] : chrome浏览器启动
+16:11:27  [INFO ] : ecshop登录成功！
+16:17:26  [INFO ] : 测试开始
+16:17:49  [INFO ] : chrome浏览器启动
+16:17:52  [INFO ] : ecshop登录成功！
+16:21:12  [INFO ] : 测试开始
+16:21:35  [INFO ] : chrome浏览器启动
+16:21:38  [INFO ] : ecshop登录成功！
+16:25:02  [INFO ] : 测试开始
+16:25:25  [INFO ] : chrome浏览器启动
+16:25:28  [INFO ] : ecshop登录成功！
+16:39:02  [INFO ] : 测试开始
+16:39:26  [INFO ] : chrome浏览器启动
+16:39:29  [INFO ] : ecshop登录成功！
+16:50:56  [INFO ] : 测试开始
+16:51:20  [INFO ] : chrome浏览器启动
+16:51:22  [INFO ] : ecshop登录成功！
+18:48:56  [INFO ] : 测试开始
+18:49:20  [INFO ] : chrome浏览器启动
+18:49:22  [INFO ] : ecshop登录成功！
+10:12:23  [INFO ] : 测试开始
+10:12:47  [INFO ] : chrome浏览器启动
+10:12:50  [INFO ] : ecshop登录成功！
+10:42:21  [INFO ] : 测试开始
+10:42:44  [INFO ] : chrome浏览器启动
+10:42:47  [INFO ] : ecshop登录成功！
+10:54:57  [INFO ] : 测试开始
+10:55:21  [INFO ] : chrome浏览器启动
+10:55:23  [INFO ] : ecshop登录成功！
+11:15:52  [INFO ] : 测试开始
+11:16:15  [INFO ] : chrome浏览器启动
+11:16:17  [INFO ] : ecshop登录成功！
+11:16:25  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+11:16:25  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+11:24:12  [INFO ] : 测试开始
+11:24:35  [INFO ] : chrome浏览器启动
+11:24:37  [INFO ] : ecshop登录成功！
+11:24:45  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+11:24:46  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+11:36:01  [INFO ] : 测试开始
+11:36:24  [INFO ] : chrome浏览器启动
+11:36:27  [INFO ] : ecshop登录成功！
+11:36:35  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+11:36:35  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+11:55:51  [INFO ] : 测试开始
+11:56:14  [INFO ] : chrome浏览器启动
+11:56:17  [INFO ] : ecshop登录成功！
+11:56:25  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+11:56:25  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+14:42:45  [INFO ] : 测试开始
+14:43:08  [INFO ] : chrome浏览器启动
+14:43:21  [INFO ] : ecshop登录成功！
+14:43:29  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+14:43:29  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+14:43:30  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+14:43:30  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:07:51  [INFO ] : 测试开始
+15:08:14  [INFO ] : chrome浏览器启动
+15:08:18  [INFO ] : ecshop登录成功！
+15:08:26  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:08:26  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:08:27  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:08:27  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:08:29  [INFO ] : 向//div[@class='el-autocomplete autocomplete']//input元素中输入： 自行车
+15:09:45  [INFO ] : 测试开始
+15:10:09  [INFO ] : chrome浏览器启动
+15:10:11  [INFO ] : ecshop登录成功！
+15:10:19  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:10:19  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:10:21  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:10:21  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:13:28  [INFO ] : 测试开始
+15:13:51  [INFO ] : chrome浏览器启动
+15:13:54  [INFO ] : ecshop登录成功！
+15:14:02  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:14:02  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:14:03  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:14:04  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:16:20  [INFO ] : 测试开始
+15:16:22  [INFO ] : 访问url失败
+15:16:35  [INFO ] : 测试开始
+15:16:58  [INFO ] : chrome浏览器启动
+15:17:01  [INFO ] : ecshop登录成功！
+15:17:08  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:17:09  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:17:11  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:17:11  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:21:59  [INFO ] : 测试开始
+15:22:22  [INFO ] : chrome浏览器启动
+15:22:25  [INFO ] : ecshop登录成功！
+15:22:33  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:22:33  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:22:35  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:22:35  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:23:59  [INFO ] : 测试开始
+15:24:22  [INFO ] : chrome浏览器启动
+15:24:26  [INFO ] : ecshop登录成功！
+15:25:29  [INFO ] : 测试开始
+15:25:52  [INFO ] : chrome浏览器启动
+15:25:55  [INFO ] : ecshop登录成功！
+15:26:02  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:26:02  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:26:06  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:26:06  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:46:21  [INFO ] : 测试开始
+15:46:44  [INFO ] : chrome浏览器启动
+15:46:47  [INFO ] : ecshop登录成功！
+15:46:55  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:46:55  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:46:57  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:46:57  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:47:40  [INFO ] : 测试开始
+15:48:03  [INFO ] : chrome浏览器启动
+15:48:06  [INFO ] : ecshop登录成功！
+15:48:13  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:48:13  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:48:16  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:48:16  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:55:48  [INFO ] : 测试开始
+15:55:50  [INFO ] : 访问url失败
+15:56:10  [INFO ] : 测试开始
+15:56:33  [INFO ] : chrome浏览器启动
+15:56:43  [INFO ] : ecshop登录成功！
+15:56:50  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:56:51  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:56:53  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:56:53  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+15:57:53  [INFO ] : 测试开始
+15:58:16  [INFO ] : chrome浏览器启动
+15:58:19  [INFO ] : ecshop登录成功！
+15:58:27  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+15:58:27  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+15:58:29  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+15:58:29  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:08:36  [INFO ] : 测试开始
+16:08:59  [INFO ] : chrome浏览器启动
+16:09:03  [INFO ] : ecshop登录成功！
+16:09:11  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+16:09:11  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+16:09:13  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+16:09:14  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:09:26  [ERROR] : org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\jinshan.sandy\AppD...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49462}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 8e48309bf268f6f5fc587d5a5023c865
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\jinshan.sandy\AppD...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49462}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 8e48309bf268f6f5fc587d5a5023c865
+	at com.testing.keyword.KeywordofWeb.input(KeywordofWeb.java:184) [bin/:?]
+	at com.testing.ecshopwwj.addGoods.addmerchant(addGoods.java:157) [bin/:?]
+	at com.testing.pageobject.goodsProcess.main(goodsProcess.java:29) [bin/:?]
+16:18:47  [INFO ] : 测试开始
+16:19:10  [INFO ] : chrome浏览器启动
+16:19:13  [INFO ] : ecshop登录成功！
+16:19:21  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+16:19:21  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+16:19:23  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+16:19:24  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:19:36  [ERROR] : org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\jinshan.sandy\AppD...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49939}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 9b9e937f4850268c9ea7322dc7880dbe
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\jinshan.sandy\AppD...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49939}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 9b9e937f4850268c9ea7322dc7880dbe
+	at com.testing.keyword.KeywordofWeb.input(KeywordofWeb.java:184) [bin/:?]
+	at com.testing.ecshopwwj.addGoods.addmerchant(addGoods.java:157) [bin/:?]
+	at com.testing.pageobject.goodsProcess.main(goodsProcess.java:29) [bin/:?]
+16:20:54  [INFO ] : 测试开始
+16:20:55  [INFO ] : 访问url失败
+16:23:52  [INFO ] : 测试开始
+16:23:56  [INFO ] : chrome浏览器启动
+16:23:59  [INFO ] : ecshop登录成功！
+16:24:06  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+16:24:06  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+16:24:09  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+16:24:09  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:28:50  [INFO ] : 测试开始
+16:29:13  [INFO ] : chrome浏览器启动
+16:29:16  [INFO ] : ecshop登录成功！
+16:29:23  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+16:29:24  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+16:29:26  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+16:29:27  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:30:24  [INFO ] : 测试开始
+16:30:47  [INFO ] : chrome浏览器启动
+16:30:50  [INFO ] : ecshop登录成功！
+16:30:57  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+16:30:57  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+16:31:00  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+16:31:00  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+16:39:44  [INFO ] : 测试开始
+16:39:46  [INFO ] : 访问url失败
+16:39:54  [INFO ] : 测试开始
+16:40:17  [INFO ] : chrome浏览器启动
+16:40:20  [INFO ] : ecshop登录成功！
+16:44:24  [INFO ] : 测试开始
+16:44:27  [INFO ] : chrome浏览器启动
+16:44:30  [INFO ] : ecshop登录成功！
+17:01:16  [INFO ] : 测试开始
+17:01:39  [INFO ] : chrome浏览器启动
+17:01:42  [INFO ] : ecshop登录成功！
+17:06:44  [INFO ] : 测试开始
+17:06:46  [INFO ] : 访问url失败
+17:07:31  [INFO ] : 测试开始
+17:07:37  [INFO ] : chrome浏览器启动
+17:07:40  [INFO ] : ecshop登录成功！
+17:16:08  [INFO ] : 测试开始
+17:16:31  [INFO ] : chrome浏览器启动
+10:07:34  [INFO ] : 测试开始
+10:07:37  [INFO ] : chrome浏览器启动
+10:14:50  [INFO ] : 测试开始
+10:15:13  [INFO ] : chrome浏览器启动
+10:15:16  [INFO ] : ecshop登录成功！
+10:15:24  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+10:15:24  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+10:15:26  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+10:15:26  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+10:45:33  [INFO ] : 测试开始
+10:45:57  [INFO ] : chrome浏览器启动
+10:45:59  [INFO ] : ecshop登录成功！
+10:46:07  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+10:46:07  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+10:46:10  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+10:46:10  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+11:05:25  [INFO ] : 测试开始
+11:05:48  [INFO ] : chrome浏览器启动
+11:05:51  [INFO ] : ecshop登录成功！
+11:05:59  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.01
+11:05:59  [INFO ] : 向//table[@class='el-table__body']//tr[@class='el-table__row']//td[@class='el-table_1_column_4  ']//input元素中输入： 20
+11:06:01  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_3  ']//input元素中输入： 0.02
+11:06:01  [INFO ] : 向//div[@class='table-wrap']//tr[@class='el-table__row el-table__row--striped']//td[@class='el-table_1_column_4  ']//input元素中输入： 30
+17:00:06  [INFO ] : 测试开始
+17:00:29  [INFO ] : chrome浏览器启动
+17:03:25  [INFO ] : 测试开始
+17:03:49  [INFO ] : chrome浏览器启动
+17:06:20  [INFO ] : 测试开始
+17:06:43  [INFO ] : chrome浏览器启动
+17:10:19  [INFO ] : 测试开始
+17:10:42  [INFO ] : chrome浏览器启动
+17:12:54  [INFO ] : 测试开始
+17:13:17  [INFO ] : chrome浏览器启动
+17:33:10  [INFO ] : 测试开始
+17:33:33  [INFO ] : chrome浏览器启动
+17:35:47  [INFO ] : 测试开始
+17:36:10  [INFO ] : chrome浏览器启动
+17:40:14  [INFO ] : 测试开始
+17:40:17  [INFO ] : chrome浏览器启动

@@ -1,0 +1,1 @@
+2019-07-31 17:10:14:118 [Appium] Welcome to Appium v1.14.0

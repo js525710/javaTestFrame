@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.testing.coupon.couponFullReduce&apos; to &apos;addCouponOpr&apos;&#x0D;&#x0A;- Original project: &apos;wwj&apos;&#x0D;&#x0A;- Original element: &apos;com.testing.coupon.couponFullReduce&apos;&#x0D;&#x0A;- Renamed element: &apos;com.testing.coupon.addCouponOpr&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;couponFullReduce&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.testing.coupon{couponFullReduce.java[couponFullReduce" matchStrategy="1" name="addCouponOpr" qualified="false" references="true" similarDeclarations="false" stamp="1562835453732" textual="false" version="1.0"/>
+</session>

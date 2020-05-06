@@ -1,0 +1,142 @@
+2019-07-24 17:59:40:450 [Appium] Welcome to Appium v1.14.0
+2019-07-24 17:59:40:451 [Appium] Non-default server args:
+2019-07-24 17:59:40:451 [Appium]   address: 127.0.0.1
+2019-07-24 17:59:40:452 [Appium]   logFile: log/20190724+17-59-35AppiumLog.txt
+2019-07-24 17:59:40:452 [Appium]   logTimestamp: true
+2019-07-24 17:59:40:452 [Appium]   localTimezone: true
+2019-07-24 17:59:40:478 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-07-24 17:59:46:326 [HTTP] --> POST /wd/hub/session
+2019-07-24 17:59:46:326 [HTTP] {"desiredCapabilities":{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}}
+2019-07-24 17:59:46:328 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}]
+2019-07-24 17:59:46:329 [BaseDriver] Event 'newSessionRequested' logged at 1563962386329 (17:59:46 GMT+0800 (GMT+08:00))
+2019-07-24 17:59:46:334 [Appium] 
+2019-07-24 17:59:46:335 [Appium] ======================================================================
+2019-07-24 17:59:46:336 [Appium]   DEPRECATION WARNING:
+2019-07-24 17:59:46:336 [Appium] 
+2019-07-24 17:59:46:336 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-07-24 17:59:46:337 [Appium]   capabilities for this Android session
+2019-07-24 17:59:46:337 [Appium] 
+2019-07-24 17:59:46:338 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-07-24 17:59:46:338 [Appium]   UiAutomator2 Driver
+2019-07-24 17:59:46:339 [Appium] 
+2019-07-24 17:59:46:339 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-07-24 17:59:46:340 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-07-24 17:59:46:340 [Appium]   platforms
+2019-07-24 17:59:46:340 [Appium] 
+2019-07-24 17:59:46:341 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-07-24 17:59:46:341 [Appium]   'automationName=UiAutomator1'
+2019-07-24 17:59:46:341 [Appium] 
+2019-07-24 17:59:46:342 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-07-24 17:59:46:342 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-07-24 17:59:46:343 [Appium] 
+2019-07-24 17:59:46:343 [Appium]   For more information about drivers, please visit 
+2019-07-24 17:59:46:343 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-07-24 17:59:46:344 [Appium]   'Drivers' menu
+2019-07-24 17:59:46:344 [Appium] 
+2019-07-24 17:59:46:344 [Appium] ======================================================================
+2019-07-24 17:59:46:345 [Appium] 
+2019-07-24 17:59:46:667 [Appium] Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-07-24 17:59:46:669 [Appium] Capabilities:
+2019-07-24 17:59:46:669 [Appium]   platformName: android
+2019-07-24 17:59:46:670 [Appium]   appActivity: .global.ui.activity.SplashActivity
+2019-07-24 17:59:46:670 [Appium]   appPackage: com.sdo.qihang.wenbo
+2019-07-24 17:59:46:670 [Appium]   deviceName: 79BQSDS5Y5GCZ
+2019-07-24 17:59:46:671 [Appium]   noReset: true
+2019-07-24 17:59:46:671 [Appium]   noSign: true
+2019-07-24 17:59:46:671 [Appium]   platformVersion: 7.0
+2019-07-24 17:59:46:672 [Appium]   resetKeyboard: true
+2019-07-24 17:59:46:672 [Appium]   udid: 79BQSDS5Y5GCZ
+2019-07-24 17:59:46:672 [Appium]   unicodeKeyboard: true
+2019-07-24 17:59:46:675 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-07-24 17:59:46:675 [BaseDriver] Creating session with W3C capabilities: {
+2019-07-24 17:59:46:676 [BaseDriver]   "alwaysMatch": {
+2019-07-24 17:59:46:676 [BaseDriver]     "platformName": "android",
+2019-07-24 17:59:46:676 [BaseDriver]     "appium:appActivity": ".global.ui.activity.SplashActivity",
+2019-07-24 17:59:46:677 [BaseDriver]     "appium:appPackage": "com.sdo.qihang.wenbo",
+2019-07-24 17:59:46:677 [BaseDriver]     "appium:deviceName": "79BQSDS5Y5GCZ",
+2019-07-24 17:59:46:677 [BaseDriver]     "appium:noReset": true,
+2019-07-24 17:59:46:678 [BaseDriver]     "appium:noSign": true,
+2019-07-24 17:59:46:678 [BaseDriver]     "appium:platformVersion": "7.0",
+2019-07-24 17:59:46:679 [BaseDriver]     "appium:resetKeyboard": true,
+2019-07-24 17:59:46:679 [BaseDriver]     "appium:udid": "79BQSDS5Y5GCZ",
+2019-07-24 17:59:46:679 [BaseDriver]     "appium:unicodeKeyboard": true
+2019-07-24 17:59:46:680 [BaseDriver]   },
+2019-07-24 17:59:46:680 [BaseDriver]   "firstMatch": [
+2019-07-24 17:59:46:681 [BaseDriver]     {}
+2019-07-24 17:59:46:681 [BaseDriver]   ]
+2019-07-24 17:59:46:681 [BaseDriver] }
+2019-07-24 17:59:46:690 [BaseDriver] Session created with session id: 747b14ad-1c67-478e-8d18-b259eddcc474
+2019-07-24 17:59:47:118 [ADB] Found 1 'build-tools' folders under 'D:\android-sdk-windows' (newest first):
+2019-07-24 17:59:47:120 [ADB]     D:/android-sdk-windows/build-tools/29.0.1
+2019-07-24 17:59:47:121 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-07-24 17:59:47:121 [AndroidDriver] Retrieving device list
+2019-07-24 17:59:47:122 [ADB] Trying to find a connected android device
+2019-07-24 17:59:47:122 [ADB] Getting connected devices...
+2019-07-24 17:59:47:686 [ADB] 1 device(s) connected
+2019-07-24 17:59:47:688 [AndroidDriver] Using device: 79BQSDS5Y5GCZ
+2019-07-24 17:59:47:690 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-07-24 17:59:47:690 [ADB] Setting device id to 79BQSDS5Y5GCZ
+2019-07-24 17:59:47:692 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell getprop ro.build.version.sdk'
+2019-07-24 17:59:48:291 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-07-24 17:59:48:291 [ADB] Device API level: 24
+2019-07-24 17:59:48:292 [AndroidDriver] No app sent in, not parsing package/activity
+2019-07-24 17:59:48:293 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ wait-for-device'
+2019-07-24 17:59:48:840 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell echo ping'
+2019-07-24 17:59:49:425 [AndroidDriver] Pushing settings apk to device...
+2019-07-24 17:59:49:426 [ADB] Getting install status for io.appium.settings
+2019-07-24 17:59:49:426 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-07-24 17:59:50:028 [ADB] 'io.appium.settings' is installed
+2019-07-24 17:59:50:029 [ADB] Getting package info for 'io.appium.settings'
+2019-07-24 17:59:50:030 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-07-24 17:59:50:668 [ADB] Using 'aapt.exe' from 'D:\android-sdk-windows\build-tools\29.0.1\aapt.exe'
+2019-07-24 17:59:51:259 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2019-07-24 17:59:51:260 [ADB] There is no need to install/upgrade 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.1@io.appium.settings\apks\settings_apk-debug.apk'
+2019-07-24 17:59:51:261 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-24 17:59:51:262 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell 'pgrep --help; echo $?''
+2019-07-24 17:59:51:918 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pgrep \^appium\\.settings\$'
+2019-07-24 17:59:52:572 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-07-24 17:59:52:573 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell appops set io.appium.settings android\:mock_location allow'
+2019-07-24 17:59:53:225 [Logcat] Starting logcat capture
+2019-07-24 17:59:53:835 [AndroidDriver] Enabling Unicode keyboard support
+2019-07-24 17:59:53:836 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell settings get secure default_input_method'
+2019-07-24 17:59:55:273 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-07-24 17:59:55:274 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-07-24 17:59:55:275 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime enable io.appium.settings/.UnicodeIME'
+2019-07-24 17:59:56:656 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime set io.appium.settings/.UnicodeIME'
+2019-07-24 17:59:58:064 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-07-24 17:59:58:065 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-07-24 17:59:58:717 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-07-24 17:59:58:718 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-07-24 17:59:58:718 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-07-24 17:59:59:912 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.0' >= '3.8.0')
+2019-07-24 17:59:59:913 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-07-24 17:59:59:914 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk
+2019-07-24 17:59:59:917 [ADB] Using 'apksigner.bat' from 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat'
+2019-07-24 17:59:59:918 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.8.0.apk"]'
+2019-07-24 18:00:00:722 [HTTP] --> DELETE /wd/hub/session/2a3bb350-bd14-48ff-8efa-36f09a189f94
+2019-07-24 18:00:00:723 [HTTP] {}
+2019-07-24 18:00:00:749 [GENERIC (2a3bb350)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2019-07-24 18:00:00:750 [GENERIC (2a3bb350)]     at asyncHandler (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\protocol.js:298:15)
+2019-07-24 18:00:00:751 [GENERIC (2a3bb350)]     at asyncHandler (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\protocol.js:489:15)
+2019-07-24 18:00:00:752 [GENERIC (2a3bb350)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-07-24 18:00:00:754 [GENERIC (2a3bb350)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\route.js:137:13)
+2019-07-24 18:00:00:755 [GENERIC (2a3bb350)]     at Route.dispatch (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\route.js:112:3)
+2019-07-24 18:00:00:757 [GENERIC (2a3bb350)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-07-24 18:00:00:758 [GENERIC (2a3bb350)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:281:22
+2019-07-24 18:00:00:759 [GENERIC (2a3bb350)]     at param (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:354:14)
+2019-07-24 18:00:00:760 [GENERIC (2a3bb350)]     at param (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:365:14)
+2019-07-24 18:00:00:762 [GENERIC (2a3bb350)]     at Function.process_params (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:410:3)
+2019-07-24 18:00:00:773 [GENERIC (2a3bb350)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:275:10)
+2019-07-24 18:00:00:775 [GENERIC (2a3bb350)]     at logger (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_morgan@1.9.1@morgan\index.js:144:5)
+2019-07-24 18:00:00:779 [GENERIC (2a3bb350)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-07-24 18:00:00:783 [GENERIC (2a3bb350)]     at trim_prefix (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:317:13)
+2019-07-24 18:00:00:785 [GENERIC (2a3bb350)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:284:7
+2019-07-24 18:00:00:786 [GENERIC (2a3bb350)]     at Function.process_params (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:335:12)
+2019-07-24 18:00:00:787 [GENERIC (2a3bb350)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:275:10)
+2019-07-24 18:00:00:788 [GENERIC (2a3bb350)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_body-parser@1.19.0@body-parser\lib\read.js:130:5
+2019-07-24 18:00:00:789 [GENERIC (2a3bb350)]     at invokeCallback (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:224:16)
+2019-07-24 18:00:00:790 [GENERIC (2a3bb350)]     at done (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:213:7)
+2019-07-24 18:00:00:790 [GENERIC (2a3bb350)]     at IncomingMessage.onEnd (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:273:7)
+2019-07-24 18:00:00:791 [GENERIC (2a3bb350)]     at IncomingMessage.emit (events.js:194:15)
+2019-07-24 18:00:00:805 [HTTP] <-- DELETE /wd/hub/session/2a3bb350-bd14-48ff-8efa-36f09a189f94 404 74 ms - 3675
+2019-07-24 18:00:00:807 [HTTP] 

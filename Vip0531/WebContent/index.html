@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sandy的登录界面</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="AjaxTest.js"></script>
+</head>
+<body>
+    <form id="loginForm" action="./LoginClass" method="get">
+		<div align="center">
+			<input type="text" name="username" placeholder="用户名">
+		</div>
+		<div align="center">
+			<input type="password" name="password" placeholder="密码">
+		</div>
+		<div align="center">
+			<input type="submit" value="登录">
+		</div>
+		<div align="center">
+			<input type="button" value="Ajax登录" onclick="loginAjax()">
+		</div>
+		<div id="msgDiv" align="center"></div>
+    </form>
+</body>
+</html>

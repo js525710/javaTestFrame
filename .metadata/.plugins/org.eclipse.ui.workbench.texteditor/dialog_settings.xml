@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="addHeader"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="addheader"/>
+			<item value="header"/>
+			<item value="encode"/>
+			<item value="charset"/>
+			<item value="jsonpath表"/>
+			<item value="解析"/>
+			<item value="json"/>
+			<item value="body"/>
+			<item value="开始验证待评价订单详情页面."/>
+			<item value="uploadReturnLogistics"/>
+			<item value="//关闭浏览器"/>
+			<item value="han"/>
+			<item value="测试失败"/>
+			<item value="window"/>
+			<item value="wait"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1009"/>
+		<item key="DIALOG_Y_ORIGIN" value="204"/>
+		<item key="DIALOG_WIDTH" value="300"/>
+		<item key="DIALOG_HEIGHT" value="409"/>
+		<item key="DIALOG_FONT_NAME" value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑"/>
+	</section>
+</section>

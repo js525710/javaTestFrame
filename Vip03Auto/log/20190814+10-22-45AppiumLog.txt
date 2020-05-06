@@ -1,0 +1,450 @@
+2019-08-14 10:22:50:077 [Appium] Welcome to Appium v1.14.0
+2019-08-14 10:22:50:078 [Appium] Non-default server args:
+2019-08-14 10:22:50:078 [Appium]   address: 127.0.0.1
+2019-08-14 10:22:50:079 [Appium]   logFile: log/20190814+10-22-45AppiumLog.txt
+2019-08-14 10:22:50:079 [Appium]   logTimestamp: true
+2019-08-14 10:22:50:079 [Appium]   localTimezone: true
+2019-08-14 10:22:50:103 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-08-14 10:22:56:613 [HTTP] --> POST /wd/hub/session
+2019-08-14 10:22:56:614 [HTTP] {"desiredCapabilities":{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}}
+2019-08-14 10:22:56:616 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}]
+2019-08-14 10:22:56:617 [BaseDriver] Event 'newSessionRequested' logged at 1565749376617 (10:22:56 GMT+0800 (GMT+08:00))
+2019-08-14 10:22:56:623 [Appium] 
+2019-08-14 10:22:56:624 [Appium] ======================================================================
+2019-08-14 10:22:56:625 [Appium]   DEPRECATION WARNING:
+2019-08-14 10:22:56:625 [Appium] 
+2019-08-14 10:22:56:626 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-08-14 10:22:56:626 [Appium]   capabilities for this Android session
+2019-08-14 10:22:56:626 [Appium] 
+2019-08-14 10:22:56:627 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-08-14 10:22:56:627 [Appium]   UiAutomator2 Driver
+2019-08-14 10:22:56:627 [Appium] 
+2019-08-14 10:22:56:628 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-08-14 10:22:56:628 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-08-14 10:22:56:629 [Appium]   platforms
+2019-08-14 10:22:56:629 [Appium] 
+2019-08-14 10:22:56:629 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-08-14 10:22:56:630 [Appium]   'automationName=UiAutomator1'
+2019-08-14 10:22:56:630 [Appium] 
+2019-08-14 10:22:56:630 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-08-14 10:22:56:631 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-08-14 10:22:56:631 [Appium] 
+2019-08-14 10:22:56:631 [Appium]   For more information about drivers, please visit 
+2019-08-14 10:22:56:632 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-08-14 10:22:56:632 [Appium]   'Drivers' menu
+2019-08-14 10:22:56:632 [Appium] 
+2019-08-14 10:22:56:633 [Appium] ======================================================================
+2019-08-14 10:22:56:633 [Appium] 
+2019-08-14 10:22:56:922 [Appium] Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-08-14 10:22:56:923 [Appium] Capabilities:
+2019-08-14 10:22:56:924 [Appium]   platformName: android
+2019-08-14 10:22:56:925 [Appium]   appActivity: .global.ui.activity.SplashActivity
+2019-08-14 10:22:56:925 [Appium]   appPackage: com.sdo.qihang.wenbo
+2019-08-14 10:22:56:926 [Appium]   deviceName: 79BQSDS5Y5GCZ
+2019-08-14 10:22:56:926 [Appium]   noReset: true
+2019-08-14 10:22:56:926 [Appium]   noSign: true
+2019-08-14 10:22:56:927 [Appium]   platformVersion: 7.0
+2019-08-14 10:22:56:927 [Appium]   resetKeyboard: true
+2019-08-14 10:22:56:927 [Appium]   udid: 79BQSDS5Y5GCZ
+2019-08-14 10:22:56:928 [Appium]   unicodeKeyboard: true
+2019-08-14 10:22:56:930 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-08-14 10:22:56:931 [BaseDriver] Creating session with W3C capabilities: {
+2019-08-14 10:22:56:931 [BaseDriver]   "alwaysMatch": {
+2019-08-14 10:22:56:931 [BaseDriver]     "platformName": "android",
+2019-08-14 10:22:56:932 [BaseDriver]     "appium:appActivity": ".global.ui.activity.SplashActivity",
+2019-08-14 10:22:56:932 [BaseDriver]     "appium:appPackage": "com.sdo.qihang.wenbo",
+2019-08-14 10:22:56:933 [BaseDriver]     "appium:deviceName": "79BQSDS5Y5GCZ",
+2019-08-14 10:22:56:933 [BaseDriver]     "appium:noReset": true,
+2019-08-14 10:22:56:933 [BaseDriver]     "appium:noSign": true,
+2019-08-14 10:22:56:934 [BaseDriver]     "appium:platformVersion": "7.0",
+2019-08-14 10:22:56:934 [BaseDriver]     "appium:resetKeyboard": true,
+2019-08-14 10:22:56:934 [BaseDriver]     "appium:udid": "79BQSDS5Y5GCZ",
+2019-08-14 10:22:56:935 [BaseDriver]     "appium:unicodeKeyboard": true
+2019-08-14 10:22:56:935 [BaseDriver]   },
+2019-08-14 10:22:56:935 [BaseDriver]   "firstMatch": [
+2019-08-14 10:22:56:936 [BaseDriver]     {}
+2019-08-14 10:22:56:936 [BaseDriver]   ]
+2019-08-14 10:22:56:936 [BaseDriver] }
+2019-08-14 10:22:56:943 [BaseDriver] Session created with session id: c3ebcc37-bd92-4e11-9ec3-48bf4318c762
+2019-08-14 10:22:57:384 [ADB] Found 1 'build-tools' folders under 'D:\android-sdk-windows' (newest first):
+2019-08-14 10:22:57:385 [ADB]     D:/android-sdk-windows/build-tools/29.0.1
+2019-08-14 10:22:57:386 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-14 10:22:57:386 [AndroidDriver] Retrieving device list
+2019-08-14 10:22:57:387 [ADB] Trying to find a connected android device
+2019-08-14 10:22:57:387 [ADB] Getting connected devices...
+2019-08-14 10:22:57:849 [ADB] 1 device(s) connected
+2019-08-14 10:22:57:850 [AndroidDriver] Using device: 79BQSDS5Y5GCZ
+2019-08-14 10:22:57:851 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-14 10:22:57:851 [ADB] Setting device id to 79BQSDS5Y5GCZ
+2019-08-14 10:22:57:852 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell getprop ro.build.version.sdk'
+2019-08-14 10:22:58:383 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-08-14 10:22:58:383 [ADB] Device API level: 24
+2019-08-14 10:22:58:384 [AndroidDriver] No app sent in, not parsing package/activity
+2019-08-14 10:22:58:385 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ wait-for-device'
+2019-08-14 10:22:58:857 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell echo ping'
+2019-08-14 10:22:59:360 [AndroidDriver] Pushing settings apk to device...
+2019-08-14 10:22:59:361 [ADB] Getting install status for io.appium.settings
+2019-08-14 10:22:59:362 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-08-14 10:22:59:942 [ADB] 'io.appium.settings' is installed
+2019-08-14 10:22:59:943 [ADB] Getting package info for 'io.appium.settings'
+2019-08-14 10:22:59:944 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-08-14 10:23:00:514 [ADB] Using 'aapt.exe' from 'D:\android-sdk-windows\build-tools\29.0.1\aapt.exe'
+2019-08-14 10:23:00:983 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2019-08-14 10:23:00:984 [ADB] There is no need to install/upgrade 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.1@io.appium.settings\apks\settings_apk-debug.apk'
+2019-08-14 10:23:00:984 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-08-14 10:23:00:985 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell 'pgrep --help; echo $?''
+2019-08-14 10:23:01:512 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pgrep \^appium\\.settings\$'
+2019-08-14 10:23:02:102 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-08-14 10:23:02:102 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell appops set io.appium.settings android\:mock_location allow'
+2019-08-14 10:23:02:659 [Logcat] Starting logcat capture
+2019-08-14 10:23:03:191 [AndroidDriver] Enabling Unicode keyboard support
+2019-08-14 10:23:03:192 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell settings get secure default_input_method'
+2019-08-14 10:23:04:524 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-08-14 10:23:04:525 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-08-14 10:23:04:526 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime enable io.appium.settings/.UnicodeIME'
+2019-08-14 10:23:05:685 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime set io.appium.settings/.UnicodeIME'
+2019-08-14 10:23:06:856 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-08-14 10:23:06:857 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-08-14 10:23:07:401 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-08-14 10:23:07:402 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-08-14 10:23:07:402 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-08-14 10:23:08:422 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.0' >= '3.8.0')
+2019-08-14 10:23:08:423 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-08-14 10:23:08:424 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk
+2019-08-14 10:23:08:425 [ADB] Using 'apksigner.bat' from 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat'
+2019-08-14 10:23:08:425 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.8.0.apk"]'
+2019-08-14 10:23:13:006 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-08-14 10:23:13:007 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-08-14 10:23:13:008 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-08-14 10:23:13:008 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-08-14 10:23:13:009 [ADB] 
+2019-08-14 10:23:13:009 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' is already signed.
+2019-08-14 10:23:13:009 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-08-14 10:23:13:010 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server.test'
+2019-08-14 10:23:13:558 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-08-14 10:23:13:559 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-08-14 10:23:13:560 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-08-14 10:23:18:053 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-08-14 10:23:18:054 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-08-14 10:23:18:055 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-08-14 10:23:18:055 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-08-14 10:23:18:056 [ADB] 
+2019-08-14 10:23:18:056 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-08-14 10:23:18:057 [UiAutomator2] Server packages are not going to be (re)installed
+2019-08-14 10:23:18:057 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-08-14 10:23:18:058 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pm list instrumentation'
+2019-08-14 10:23:19:255 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-08-14 10:23:19:255 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8207
+2019-08-14 10:23:19:256 [ADB] Forwarding system: 8207 to device: 6790
+2019-08-14 10:23:19:256 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ forward tcp\:8207 tcp\:6790'
+2019-08-14 10:23:19:718 [UiAutomator2] No app capability. Assuming it is already on the device
+2019-08-14 10:23:19:719 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-08-14 10:23:19:745 [UiAutomator2] No obsolete sessions have been detected
+2019-08-14 10:23:19:746 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am force-stop io.appium.uiautomator2.server.test'
+2019-08-14 10:23:20:924 [UiAutomator2] Starting UIAutomator2 server 3.8.0
+2019-08-14 10:23:20:925 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' and test from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-08-14 10:23:20:925 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-08-14 10:23:20:926 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","79BQSDS5Y5GCZ","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-08-14 10:23:21:934 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-08-14 10:23:21:936 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8207/wd/hub/status] with no body
+2019-08-14 10:23:21:951 [WD Proxy] Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2019-08-14 10:23:21:952 [WD Proxy] Determined the downstream protocol for the proxy as 'MJSONWP'
+2019-08-14 10:23:21:953 [UiAutomator2] The initialization of the instrumentation process took 1028ms
+2019-08-14 10:23:21:953 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-08-14 10:23:21:954 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8207/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ"}}
+2019-08-14 10:23:21:971 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":"Created Session"}
+2019-08-14 10:23:21:977 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/appium/device/info] with no body
+2019-08-14 10:23:22:005 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":{"androidId":"dce7f5af95551f9c","manufacturer":"Meizu","model":"PRO 7-S","brand":"Meizu","apiVersion":"24","platformVersion":"7.0","carrierName":"","realDisplaySize":"1080x1920","displayDensity":480,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"BBY_TEST_2.4G\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-35,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2019-08-14 10:23:22:006 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys window'
+2019-08-14 10:23:22:422 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-08-14 10:23:22:520 [AndroidDriver] Screen already unlocked, doing nothing
+2019-08-14 10:23:22:521 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity'. Starting it ourselves
+2019-08-14 10:23:22:522 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am start -W -n com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-14 10:23:24:929 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/appium/device/pixel_ratio] with body: {}
+2019-08-14 10:23:24:974 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":3}
+2019-08-14 10:23:24:976 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-08-14 10:23:24:977 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/appium/device/system_bars] with body: {}
+2019-08-14 10:23:24:995 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":{"statusBar":66}}
+2019-08-14 10:23:24:997 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-08-14 10:23:24:997 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/window/current/size] with body: {}
+2019-08-14 10:23:25:013 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":{"height":1920,"width":1080}}
+2019-08-14 10:23:25:015 [Appium] New AndroidUiautomator2Driver session created successfully, session c3ebcc37-bd92-4e11-9ec3-48bf4318c762 added to master session list
+2019-08-14 10:23:25:016 [BaseDriver] Event 'newSessionStarted' logged at 1565749405015 (10:23:25 GMT+0800 (GMT+08:00))
+2019-08-14 10:23:25:017 [W3C (c3ebcc37)] Cached the protocol value 'W3C' for the new session c3ebcc37-bd92-4e11-9ec3-48bf4318c762
+2019-08-14 10:23:25:019 [W3C (c3ebcc37)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}}
+2019-08-14 10:23:25:023 [HTTP] <-- POST /wd/hub/session 200 28409 ms - 1062
+2019-08-14 10:23:25:024 [HTTP] 
+2019-08-14 10:23:25:059 [HTTP] --> GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762
+2019-08-14 10:23:25:060 [HTTP] {}
+2019-08-14 10:23:25:061 [W3C (c3ebcc37)] Calling AppiumDriver.getSession() with args: ["c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:25:085 [UiAutomator2] Getting session details from server to mix in
+2019-08-14 10:23:25:085 [WD Proxy] Matched '/' to command name 'getSession'
+2019-08-14 10:23:25:086 [WD Proxy] Proxying [GET /] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a] with body: {}
+2019-08-14 10:23:25:102 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":{}}
+2019-08-14 10:23:25:104 [W3C (c3ebcc37)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}
+2019-08-14 10:23:25:107 [HTTP] <-- GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762 200 48 ms - 994
+2019-08-14 10:23:25:107 [HTTP] 
+2019-08-14 10:23:25:115 [HTTP] --> GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762
+2019-08-14 10:23:25:116 [HTTP] {}
+2019-08-14 10:23:25:116 [W3C (c3ebcc37)] Calling AppiumDriver.getSession() with args: ["c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:25:117 [UiAutomator2] Getting session details from server to mix in
+2019-08-14 10:23:25:118 [WD Proxy] Matched '/' to command name 'getSession'
+2019-08-14 10:23:25:118 [WD Proxy] Proxying [GET /] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a] with body: {}
+2019-08-14 10:23:25:130 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":{}}
+2019-08-14 10:23:25:132 [W3C (c3ebcc37)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}
+2019-08-14 10:23:25:134 [HTTP] <-- GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762 200 19 ms - 994
+2019-08-14 10:23:25:135 [HTTP] 
+2019-08-14 10:23:35:142 [HTTP] --> POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/timeouts
+2019-08-14 10:23:35:143 [HTTP] {"implicit":10000}
+2019-08-14 10:23:35:145 [W3C (c3ebcc37)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:35:146 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-08-14 10:23:35:146 [BaseDriver] Set implicit wait to 10000ms
+2019-08-14 10:23:35:147 [W3C (c3ebcc37)] Responding to client with driver.timeouts() result: null
+2019-08-14 10:23:35:149 [HTTP] <-- POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/timeouts 200 7 ms - 14
+2019-08-14 10:23:35:149 [HTTP] 
+2019-08-14 10:23:35:165 [HTTP] --> POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element
+2019-08-14 10:23:35:166 [HTTP] {"using":"xpath","value":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView"}
+2019-08-14 10:23:35:168 [W3C (c3ebcc37)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:35:169 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-14 10:23:35:169 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-14 10:23:35:170 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-14 10:23:35:170 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/element] with body: {"strategy":"xpath","selector":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","context":"","multiple":false}
+2019-08-14 10:23:35:298 [WD Proxy] Got an unexpected response: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":13,"value":"io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started\n\tat io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.Abstrac...
+2019-08-14 10:23:35:300 [MJSONWP] Matched JSONWP error code 13 to UnknownError
+2019-08-14 10:23:35:312 [W3C (c3ebcc37)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:35:313 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)
+2019-08-14 10:23:35:313 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)
+2019-08-14 10:23:35:314 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)
+2019-08-14 10:23:35:314 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)
+2019-08-14 10:23:35:315 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+2019-08-14 10:23:35:316 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+2019-08-14 10:23:35:316 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+2019-08-14 10:23:35:317 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+2019-08-14 10:23:35:317 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:317 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:318 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:318 [W3C (c3ebcc37)] 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+2019-08-14 10:23:35:318 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:319 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:319 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:319 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+2019-08-14 10:23:35:320 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+2019-08-14 10:23:35:321 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+2019-08-14 10:23:35:321 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+2019-08-14 10:23:35:321 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:322 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:322 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:322 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+2019-08-14 10:23:35:323 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:323 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:323 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+2019-08-14 10:23:35:324 [W3C (c3ebcc37)] 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+2019-08-14 10:23:35:325 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+2019-08-14 10:23:35:325 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+2019-08-14 10:23:35:325 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+2019-08-14 10:23:35:325 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+2019-08-14 10:23:35:326 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+2019-08-14 10:23:35:326 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+2019-08-14 10:23:35:326 [W3C (c3ebcc37)] 	at java.lang.Thread.run(Thread.java:761)
+2019-08-14 10:23:35:327 [W3C (c3ebcc37)] Caused by: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:35:327 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.AppiumUIA2Driver.getSessionOrThrow(AppiumUIA2Driver.java:54)
+2019-08-14 10:23:35:327 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.buildChildren(UiAutomationElement.java:174)
+2019-08-14 10:23:35:327 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:92)
+2019-08-14 10:23:35:328 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:102)
+2019-08-14 10:23:35:328 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.rebuildForNewRoot(UiAutomationElement.java:116)
+2019-08-14 10:23:35:330 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.toStream(AccessibilityNodeInfoDumper.java:169)
+2019-08-14 10:23:35:330 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:212)
+2019-08-14 10:23:35:331 [W3C (c3ebcc37)] 	... 33 more
+2019-08-14 10:23:35:331 [W3C (c3ebcc37)] 
+2019-08-14 10:23:35:331 [W3C (c3ebcc37)]     at errorFromMJSONWPStatusCode (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:789:10)
+2019-08-14 10:23:35:331 [W3C (c3ebcc37)]     at ProxyRequestError.errorFromMJSONWPStatusCode [as getActualError] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:683:14)
+2019-08-14 10:23:35:332 [W3C (c3ebcc37)]     at JWProxy.getActualError [as command] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\jsonwp-proxy\proxy.js:246:19)
+2019-08-14 10:23:35:334 [HTTP] <-- POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element 500 169 ms - 9663
+2019-08-14 10:23:35:334 [HTTP] 
+2019-08-14 10:23:35:353 [HTTP] --> POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element
+2019-08-14 10:23:35:354 [HTTP] {"using":"xpath","value":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView"}
+2019-08-14 10:23:35:355 [W3C (c3ebcc37)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:35:356 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-14 10:23:35:358 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-14 10:23:35:359 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-14 10:23:35:360 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/element] with body: {"strategy":"xpath","selector":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","context":"","multiple":false}
+2019-08-14 10:23:35:985 [WD Proxy] Got an unexpected response: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":13,"value":"io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started\n\tat io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.Abstrac...
+2019-08-14 10:23:35:986 [MJSONWP] Matched JSONWP error code 13 to UnknownError
+2019-08-14 10:23:35:988 [W3C (c3ebcc37)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:35:988 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)
+2019-08-14 10:23:35:989 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)
+2019-08-14 10:23:35:990 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)
+2019-08-14 10:23:35:990 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)
+2019-08-14 10:23:35:991 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+2019-08-14 10:23:35:991 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+2019-08-14 10:23:35:992 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+2019-08-14 10:23:35:992 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+2019-08-14 10:23:35:993 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:993 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:993 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:994 [W3C (c3ebcc37)] 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+2019-08-14 10:23:35:994 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:994 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:994 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:995 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+2019-08-14 10:23:35:995 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+2019-08-14 10:23:35:995 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+2019-08-14 10:23:35:996 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+2019-08-14 10:23:35:996 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:996 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:996 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:35:997 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+2019-08-14 10:23:35:997 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:35:997 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:35:998 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+2019-08-14 10:23:35:998 [W3C (c3ebcc37)] 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+2019-08-14 10:23:35:998 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+2019-08-14 10:23:35:998 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+2019-08-14 10:23:35:999 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+2019-08-14 10:23:35:999 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+2019-08-14 10:23:35:999 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+2019-08-14 10:23:35:999 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+2019-08-14 10:23:36:000 [W3C (c3ebcc37)] 	at java.lang.Thread.run(Thread.java:761)
+2019-08-14 10:23:36:000 [W3C (c3ebcc37)] Caused by: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:36:000 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.AppiumUIA2Driver.getSessionOrThrow(AppiumUIA2Driver.java:54)
+2019-08-14 10:23:36:000 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.buildChildren(UiAutomationElement.java:174)
+2019-08-14 10:23:36:001 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:92)
+2019-08-14 10:23:36:001 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:102)
+2019-08-14 10:23:36:001 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.rebuildForNewRoot(UiAutomationElement.java:116)
+2019-08-14 10:23:36:002 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.toStream(AccessibilityNodeInfoDumper.java:169)
+2019-08-14 10:23:36:002 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:212)
+2019-08-14 10:23:36:002 [W3C (c3ebcc37)] 	... 33 more
+2019-08-14 10:23:36:002 [W3C (c3ebcc37)] 
+2019-08-14 10:23:36:003 [W3C (c3ebcc37)]     at errorFromMJSONWPStatusCode (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:789:10)
+2019-08-14 10:23:36:004 [W3C (c3ebcc37)]     at ProxyRequestError.errorFromMJSONWPStatusCode [as getActualError] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:683:14)
+2019-08-14 10:23:36:005 [W3C (c3ebcc37)]     at JWProxy.getActualError [as command] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\jsonwp-proxy\proxy.js:246:19)
+2019-08-14 10:23:36:009 [HTTP] <-- POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element 500 654 ms - 9663
+2019-08-14 10:23:36:012 [HTTP] 
+2019-08-14 10:23:36:015 [HTTP] --> GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/screenshot
+2019-08-14 10:23:36:017 [HTTP] {}
+2019-08-14 10:23:36:018 [W3C (c3ebcc37)] Calling AppiumDriver.getScreenshot() with args: ["c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:36:019 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2019-08-14 10:23:36:020 [WD Proxy] Proxying [GET /screenshot] to [GET http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/screenshot] with no body
+2019-08-14 10:23:36:640 [WD Proxy] Got response with status 200: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzsnXd4FNW7x79bs8mmkV5MoQVCiPSmlEDoqEiVJiLEgiiKXkCQnwIiKAp6xR9KExEUpINAQAIC\nUoTQSYU0Qkgvm+xms9nd7Nw\/sjt3NjvbsjUwn+eZ50lmZ845M\/POmXPe8xYWQRAEGBgYGBgYGBgY\nGBieLuLiHN0Chiedc+cYOWOwPefOkX+yHdcKBgYGBgYGBgYGBgYGBgYGBuvAKDgYGBgYGBgYGBgY\nGBgYGBhaPIyCg4GBgYGBgYGBgYGBgYGBocXDKDgYGBgYGBgYGBgYGBgYGBhaPIyCg4GBgYGBgYGB\ngYGBgYGBocXDdXQDGBj0MW\/ePNTX1yM4OBiff\/65o5vD8ITCyBkDAwMDAwMDAwPDkwGLmiY2MTER\naWlpeg\/mcrlo1aoVYmJi0KNHD5s37v79+9i7dy\/S09MhkUjg7e2Nbt264ZVXXkFwcLDV6\/vpp59Q\nW1uLnj17YtCgQRaVdfLkSeTm5mLu3LlWat3Th4eHByQSCaKjo7XkUvOcAKBPnz7o37+\/0bJOnDiB\n9PR0AIC\/vz9mzpxp1bbaQ1bt\/T48LdDJ2e7du1FYWAgAiI6OxujRo00qiypn4eHhmDRpktXayciY\n8+GMfZElMDLmfDhjX2QJjIw5IZT0nYmVlUiTSvUeymOx4M3lIkYoRA93dzs0zv6crKxErkyGuSEh\nVivzvlSKvWVlSJdKIWlogDeXi27u7nglIADBfL7V6nFaDKSJrVQqsbe0FDclEpQrFFABaMXlIlYo\nxEu+vmjn6qq32D8rKrCjuBjPurvj04gImzTdWWDk0gQoaWK1FByvvvoqdu3aZVIZISEhmDJlCpYv\nXw4...
+2019-08-14 10:23:36:644 [W3C (c3ebcc37)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzsnXd4FNW7x79bs8mmkV5MoQVCiPSmlEDoqEiVJiLEgiiKXkCQnwIiKAp6xR9KExEUpINAQAIC\nUoTQSYU0Qkgvm+xms9nd7Nw/sjt3NjvbsjUwn+eZ50lmZ845M/POmXPe8xYWQRAEGBgYGBgYGBgY\nGBieLuLiHN0Chiedc+cYOWOwPefOkX+yHdcKBgYGBgYGBgYGBgYGBgYGBuvAKDgYGBgYGBgYGBgY\nGBgYGBhaPIyCg4GBgYGBgYGBgYGBgYGBocXDKDgYGBgYGBgYGBgYGBgYGBhaPIyCg4GBgYGBgYGB\ngYGBgYGBocXDdXQDGBj0MW/ePNTX1yM4OBiff/65o5vD8ITCyBkDAwMDAwMDAwPDkwGLmiY2MTER\naWlpeg/mcrlo1aoVYmJi0KNHD5s37v79+9i7dy/S09MhkUjg7e2Nbt264ZVXXkFwcLDV6/vpp59Q\nW1uLnj17YtCgQRaVdfLkSeTm5mLu3LlWat3Th4eHByQSCaKjo7XkUvOcAKBPnz7o37+/0bJOnDiB\n9PR0AIC/vz9mzpxp1bbaQ1bt/T48LdDJ2e7du1FYWAgAiI6OxujRo00qiypn4eHhmDRpktXayciY\n8+GMfZElMDLmfDhjX2QJjIw5IZT0nYmVlUiTSvUeymOx4M3lIkYoRA93dzs0zv6crKxErkyGuSEh\nVivzvlSKvWVlSJdKIWlogDeXi27u7nglIADBfL7V6nFaDKSJrVQqsbe0FDclEpQrFFABaMXlIlYo\nxEu+vmjn6qq32D8rKrCjuBjPurvj04gImzTdWWDk0gQoaWK1FByvvvoqdu3aZVIZISEhmDJlCpYv\nXw4PDw+rt3HBggXYvHkzpDQdrY+PD5YuXYqPPvrIavVduHABgwcPhkqlwrFjxzBmzBizy8jOzsa2\nbdtw8O...
+2019-08-14 10:23:36:648 [HTTP] <-- GET /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/screenshot 200 632 ms - 179704
+2019-08-14 10:23:36:649 [HTTP] 
+2019-08-14 10:23:36:692 [HTTP] --> POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element
+2019-08-14 10:23:36:693 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]"}
+2019-08-14 10:23:36:693 [W3C (c3ebcc37)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:36:694 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-14 10:23:36:694 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-14 10:23:36:695 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-14 10:23:36:695 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","context":"","multiple":false}
+2019-08-14 10:23:36:768 [WD Proxy] Got an unexpected response: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":13,"value":"io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started\n\tat io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.Abstrac...
+2019-08-14 10:23:36:770 [MJSONWP] Matched JSONWP error code 13 to UnknownError
+2019-08-14 10:23:36:771 [W3C (c3ebcc37)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:36:772 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)
+2019-08-14 10:23:36:773 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)
+2019-08-14 10:23:36:773 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)
+2019-08-14 10:23:36:774 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)
+2019-08-14 10:23:36:775 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+2019-08-14 10:23:36:775 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+2019-08-14 10:23:36:776 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+2019-08-14 10:23:36:776 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+2019-08-14 10:23:36:777 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:777 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:777 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:778 [W3C (c3ebcc37)] 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+2019-08-14 10:23:36:778 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:778 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:779 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:779 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+2019-08-14 10:23:36:779 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+2019-08-14 10:23:36:780 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+2019-08-14 10:23:36:780 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+2019-08-14 10:23:36:780 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:781 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:781 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:781 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+2019-08-14 10:23:36:782 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:782 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:782 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+2019-08-14 10:23:36:783 [W3C (c3ebcc37)] 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+2019-08-14 10:23:36:783 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+2019-08-14 10:23:36:783 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+2019-08-14 10:23:36:783 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+2019-08-14 10:23:36:784 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+2019-08-14 10:23:36:784 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+2019-08-14 10:23:36:784 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+2019-08-14 10:23:36:785 [W3C (c3ebcc37)] 	at java.lang.Thread.run(Thread.java:761)
+2019-08-14 10:23:36:785 [W3C (c3ebcc37)] Caused by: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:36:785 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.AppiumUIA2Driver.getSessionOrThrow(AppiumUIA2Driver.java:54)
+2019-08-14 10:23:36:786 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.buildChildren(UiAutomationElement.java:174)
+2019-08-14 10:23:36:786 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:92)
+2019-08-14 10:23:36:786 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:102)
+2019-08-14 10:23:36:786 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.rebuildForNewRoot(UiAutomationElement.java:116)
+2019-08-14 10:23:36:787 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.toStream(AccessibilityNodeInfoDumper.java:169)
+2019-08-14 10:23:36:787 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:212)
+2019-08-14 10:23:36:787 [W3C (c3ebcc37)] 	... 33 more
+2019-08-14 10:23:36:788 [W3C (c3ebcc37)] 
+2019-08-14 10:23:36:788 [W3C (c3ebcc37)]     at errorFromMJSONWPStatusCode (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:789:10)
+2019-08-14 10:23:36:788 [W3C (c3ebcc37)]     at ProxyRequestError.errorFromMJSONWPStatusCode [as getActualError] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:683:14)
+2019-08-14 10:23:36:789 [W3C (c3ebcc37)]     at JWProxy.getActualError [as command] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\jsonwp-proxy\proxy.js:246:19)
+2019-08-14 10:23:36:790 [HTTP] <-- POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element 500 100 ms - 9663
+2019-08-14 10:23:36:791 [HTTP] 
+2019-08-14 10:23:36:800 [HTTP] --> POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element
+2019-08-14 10:23:36:801 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]"}
+2019-08-14 10:23:36:802 [W3C (c3ebcc37)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","c3ebcc37-bd92-4e11-9ec3-48bf4318c762"]
+2019-08-14 10:23:36:803 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-14 10:23:36:804 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-14 10:23:36:804 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-14 10:23:36:805 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8207/wd/hub/session/0c41479d-9296-48d7-8170-568d2ce7d00a/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","context":"","multiple":false}
+2019-08-14 10:23:36:844 [WD Proxy] Got an unexpected response: {"sessionId":"0c41479d-9296-48d7-8170-568d2ce7d00a","status":13,"value":"io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started\n\tat io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.Abstrac...
+2019-08-14 10:23:36:845 [MJSONWP] Matched JSONWP error code 13 to UnknownError
+2019-08-14 10:23:36:846 [W3C (c3ebcc37)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:36:847 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:237)
+2019-08-14 10:23:36:848 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.utils.ElementLocationHelpers.getXPathNodeMatch(ElementLocationHelpers.java:71)
+2019-08-14 10:23:36:849 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:101)
+2019-08-14 10:23:36:849 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:73)
+2019-08-14 10:23:36:850 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:37)
+2019-08-14 10:23:36:851 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+2019-08-14 10:23:36:851 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:243)
+2019-08-14 10:23:36:852 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+2019-08-14 10:23:36:852 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:853 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:853 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:853 [W3C (c3ebcc37)] 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+2019-08-14 10:23:36:853 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:854 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:854 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:854 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+2019-08-14 10:23:36:855 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+2019-08-14 10:23:36:855 [W3C (c3ebcc37)] 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+2019-08-14 10:23:36:855 [W3C (c3ebcc37)] 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+2019-08-14 10:23:36:856 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:856 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:857 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+2019-08-14 10:23:36:857 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+2019-08-14 10:23:36:857 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+2019-08-14 10:23:36:857 [W3C (c3ebcc37)] 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+2019-08-14 10:23:36:858 [W3C (c3ebcc37)] 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+2019-08-14 10:23:36:858 [W3C (c3ebcc37)] 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+2019-08-14 10:23:36:858 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+2019-08-14 10:23:36:859 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+2019-08-14 10:23:36:859 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+2019-08-14 10:23:36:859 [W3C (c3ebcc37)] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+2019-08-14 10:23:36:860 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+2019-08-14 10:23:36:861 [W3C (c3ebcc37)] 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+2019-08-14 10:23:36:861 [W3C (c3ebcc37)] 	at java.lang.Thread.run(Thread.java:761)
+2019-08-14 10:23:36:861 [W3C (c3ebcc37)] Caused by: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: A session is either terminated or not started
+2019-08-14 10:23:36:862 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.AppiumUIA2Driver.getSessionOrThrow(AppiumUIA2Driver.java:54)
+2019-08-14 10:23:36:862 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.buildChildren(UiAutomationElement.java:174)
+2019-08-14 10:23:36:862 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:92)
+2019-08-14 10:23:36:863 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.<init>(UiAutomationElement.java:102)
+2019-08-14 10:23:36:863 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.model.UiAutomationElement.rebuildForNewRoot(UiAutomationElement.java:116)
+2019-08-14 10:23:36:863 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.toStream(AccessibilityNodeInfoDumper.java:169)
+2019-08-14 10:23:36:864 [W3C (c3ebcc37)] 	at io.appium.uiautomator2.core.AccessibilityNodeInfoDumper.findNodes(AccessibilityNodeInfoDumper.java:212)
+2019-08-14 10:23:36:864 [W3C (c3ebcc37)] 	... 33 more
+2019-08-14 10:23:36:864 [W3C (c3ebcc37)] 
+2019-08-14 10:23:36:864 [W3C (c3ebcc37)]     at errorFromMJSONWPStatusCode (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:789:10)
+2019-08-14 10:23:36:865 [W3C (c3ebcc37)]     at ProxyRequestError.errorFromMJSONWPStatusCode [as getActualError] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\errors.js:683:14)
+2019-08-14 10:23:36:865 [W3C (c3ebcc37)]     at JWProxy.getActualError [as command] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\jsonwp-proxy\proxy.js:246:19)
+2019-08-14 10:23:36:868 [HTTP] <-- POST /wd/hub/session/c3ebcc37-bd92-4e11-9ec3-48bf4318c762/element 500 67 ms - 9663
+2019-08-14 10:23:36:871 [HTTP] 
+2019-08-14 10:24:23:015 [Instrumentation] The process has exited with code 3221225786

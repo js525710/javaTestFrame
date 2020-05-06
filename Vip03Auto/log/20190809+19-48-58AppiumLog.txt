@@ -1,0 +1,34 @@
+2019-08-09 19:49:02:754 [Appium] Welcome to Appium v1.14.0
+2019-08-09 19:49:02:755 [Appium] Non-default server args:
+2019-08-09 19:49:02:755 [Appium]   address: 127.0.0.1
+2019-08-09 19:49:02:756 [Appium]   logFile: log/20190809+19-48-58AppiumLog.txt
+2019-08-09 19:49:02:756 [Appium]   logTimestamp: true
+2019-08-09 19:49:02:756 [Appium]   localTimezone: true
+2019-08-09 19:49:02:780 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-08-09 19:49:03:247 [HTTP] --> DELETE /wd/hub/session/58486441-8f92-48fe-9e48-dfe410ca0a75
+2019-08-09 19:49:03:249 [HTTP] {}
+2019-08-09 19:49:03:283 [GENERIC (58486441)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2019-08-09 19:49:03:283 [GENERIC (58486441)]     at asyncHandler (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\protocol.js:298:15)
+2019-08-09 19:49:03:284 [GENERIC (58486441)]     at asyncHandler (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\protocol\protocol.js:489:15)
+2019-08-09 19:49:03:284 [GENERIC (58486441)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-08-09 19:49:03:285 [GENERIC (58486441)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\route.js:137:13)
+2019-08-09 19:49:03:286 [GENERIC (58486441)]     at Route.dispatch (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\route.js:112:3)
+2019-08-09 19:49:03:286 [GENERIC (58486441)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-08-09 19:49:03:287 [GENERIC (58486441)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:281:22
+2019-08-09 19:49:03:288 [GENERIC (58486441)]     at param (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:354:14)
+2019-08-09 19:49:03:288 [GENERIC (58486441)]     at param (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:365:14)
+2019-08-09 19:49:03:289 [GENERIC (58486441)]     at Function.process_params (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:410:3)
+2019-08-09 19:49:03:289 [GENERIC (58486441)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:275:10)
+2019-08-09 19:49:03:290 [GENERIC (58486441)]     at logger (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_morgan@1.9.1@morgan\index.js:144:5)
+2019-08-09 19:49:03:291 [GENERIC (58486441)]     at Layer.handle [as handle_request] (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\layer.js:95:5)
+2019-08-09 19:49:03:291 [GENERIC (58486441)]     at trim_prefix (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:317:13)
+2019-08-09 19:49:03:292 [GENERIC (58486441)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:284:7
+2019-08-09 19:49:03:292 [GENERIC (58486441)]     at Function.process_params (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:335:12)
+2019-08-09 19:49:03:293 [GENERIC (58486441)]     at next (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_express@4.17.1@express\lib\router\index.js:275:10)
+2019-08-09 19:49:03:293 [GENERIC (58486441)]     at C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_body-parser@1.19.0@body-parser\lib\read.js:130:5
+2019-08-09 19:49:03:294 [GENERIC (58486441)]     at invokeCallback (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:224:16)
+2019-08-09 19:49:03:295 [GENERIC (58486441)]     at done (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:213:7)
+2019-08-09 19:49:03:295 [GENERIC (58486441)]     at IncomingMessage.onEnd (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_raw-body@2.4.0@raw-body\index.js:273:7)
+2019-08-09 19:49:03:296 [GENERIC (58486441)]     at IncomingMessage.emit (events.js:194:15)
+2019-08-09 19:49:03:302 [HTTP] <-- DELETE /wd/hub/session/58486441-8f92-48fe-9e48-dfe410ca0a75 404 57 ms - 3675
+2019-08-09 19:49:03:303 [HTTP] 

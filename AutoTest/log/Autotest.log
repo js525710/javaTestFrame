@@ -1,0 +1,210 @@
+16:50:48  [INFO ] : 启动appium server服务
+16:50:48  [INFO ] : 执行cmd命令:  appium -a 127.0.0.1 -p 4723 --log log/20190814+16-50-48AppiumLog.txt --local-timezone --log-timestamp
+16:50:58  [INFO ] : 启动待测App!
+16:51:40  [INFO ] : App正在启动中。。。
+16:51:41  [INFO ] : //android.widget.HorizontalScrollView[@resource-id="com.sdo.qihang.wenbo:id/tabLayout"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView元素进行点击
+16:51:43  [INFO ] : 用户已登录！
+16:51:44  [INFO ] : //android.widget.HorizontalScrollView[@resource-id="com.sdo.qihang.wenbo:id/tabLayout"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[4]/android.widget.LinearLayout元素进行点击
+16:51:46  [INFO ] : //android.support.v4.view.ViewPager[@resource-id="com.sdo.qihang.wenbo:id/viewPager"]/android.widget.RelativeLayout/android.widget.RelativeLayout[@resource-id="com.sdo.qihang.wenbo:id/rlTabLayout"]/android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivRight2"]元素进行点击
+16:51:47  [INFO ] : //android.widget.RelativeLayout[@resource-id="com.sdo.qihang.wenbo:id/searchView"]/android.widget.RelativeLayout元素进行点击
+16:51:50  [INFO ] : 向//android.widget.EditText[@resource-id="com.sdo.qihang.wenbo:id/etContent"]元素中输入了： 手机
+16:51:50  [INFO ] : 执行cmd命令:  adb shell ime set com.sohu.inputmethod.sogou/.SogouIME
+16:51:54  [INFO ] : 执行cmd命令:  adb shell input tap 983 1817
+16:51:58  [INFO ] : 断言成功，文本包含目标内容！
+16:51:59  [INFO ] : //android.support.v7.widget.RecyclerView[@resource-id="com.sdo.qihang.wenbo:id/recycler"]/android.widget.RelativeLayout[@resource-id="com.sdo.qihang.wenbo:id/rlRoot"][3]/android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvName"]元素进行点击
+16:52:01  [INFO ] : //android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvBuy"]元素进行点击
+16:52:02  [INFO ] : //android.view.ViewGroup[@resource-id="com.sdo.qihang.wenbo:id/flowLayout"]/android.widget.FrameLayout[1]元素进行点击
+16:52:03  [INFO ] : //android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvBuy"]元素进行点击
+16:52:03  [INFO ] : 开始验证订单确认页面的内容...................
+16:52:05  [INFO ] : 断言成功，文本等于目标内容！
+16:52:06  [INFO ] : 断言成功，文本等于目标内容！
+16:52:06  [INFO ] : 断言成功，文本等于目标内容！
+16:52:06  [INFO ] : 断言成功，文本等于目标内容！
+16:52:07  [INFO ] : 断言成功，文本包含目标内容！
+16:52:08  [INFO ] : 断言成功，文本等于目标内容！
+16:52:09  [INFO ] : 断言成功，文本包含目标内容！
+16:52:09  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivCarriageQuestion"]元素进行点击
+16:52:12  [INFO ] : 断言成功，文本包含目标内容！
+16:52:12  [INFO ] : 执行cmd命令:  adb shell input tap 500 1500
+16:52:16  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivReceiptQuestion"]元素进行点击
+16:52:18  [INFO ] : 断言成功，文本等于目标内容！
+16:52:18  [INFO ] : 执行cmd命令:  adb shell input tap 500 1500
+16:52:21  [INFO ] : //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvPay"]元素进行点击
+16:52:23  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBackId"]元素进行点击
+16:52:24  [INFO ] : //android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvLeft"]元素进行点击
+16:52:24  [INFO ] : //android.widget.RelativeLayout[@resource-id="com.sdo.qihang.wenbo:id/titleBar"]/android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBackId"]元素进行点击
+16:52:26  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/tvCancel"]元素进行点击
+16:52:26  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBack"]元素进行点击
+16:52:28  [INFO ] : //android.widget.HorizontalScrollView[@resource-id="com.sdo.qihang.wenbo:id/tabLayout"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView元素进行点击
+16:52:29  [INFO ] : //android.widget.RelativeLayout[@resource-id="com.sdo.qihang.wenbo:id/rlOrder"]元素进行点击
+16:52:31  [INFO ] : //android.widget.HorizontalScrollView[@resource-id="com.sdo.qihang.wenbo:id/tabLayout"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[3]元素进行点击
+16:52:31  [INFO ] : 开始验证待发货订单管理页面......................
+16:52:32  [INFO ] : 断言成功，文本等于目标内容！
+16:52:33  [INFO ] : 断言成功，文本等于目标内容！
+16:52:34  [INFO ] : 断言成功，文本等于目标内容！
+16:52:35  [INFO ] : 断言成功，文本包含目标内容！
+16:52:36  [INFO ] : 断言成功，文本等于目标内容！
+16:52:37  [INFO ] : //android.support.v7.widget.RecyclerView[@resource-id="com.sdo.qihang.wenbo:id/recycler"]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]元素进行点击
+16:52:37  [INFO ] : 开始验证待发货订单详情页面.................
+16:52:39  [INFO ] : 断言成功，文本等于目标内容！
+16:52:39  [INFO ] : 断言成功，文本等于目标内容！
+16:52:39  [INFO ] : 断言成功，文本等于目标内容！
+16:52:40  [INFO ] : 断言成功，文本等于目标内容！
+16:52:41  [INFO ] : 断言成功，文本等于目标内容！
+16:52:41  [INFO ] : 断言成功，文本等于目标内容！
+16:52:42  [INFO ] : 断言成功，文本等于目标内容！
+16:52:42  [INFO ] : 断言成功，文本等于目标内容！
+16:52:43  [INFO ] : 断言成功，文本等于目标内容！
+16:52:43  [INFO ] : 开始执行取消订单操作................
+16:52:43  [INFO ] : //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvLeft"]元素进行点击
+16:52:44  [INFO ] : //android.widget.RadioGroup[@resource-id="com.sdo.qihang.wenbo:id/radioGroup"]/android.widget.RadioButton[1]元素进行点击
+16:52:45  [INFO ] : 断言成功，文本等于目标内容！
+16:52:47  [INFO ] : 向//android.widget.EditText[@resource-id="com.sdo.qihang.wenbo:id/editText"]元素中输入了： 不想买了没道理
+16:52:48  [INFO ] : //android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvSubmit"]元素进行点击
+16:52:48  [INFO ] : 开始验证取消订单后的订单详情页面...................
+16:52:50  [INFO ] : 断言成功，文本等于目标内容！
+16:52:50  [INFO ] : //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.TextView[@resource-id="com.sdo.qihang.wenbo:id/tvRight"]元素进行点击
+16:52:50  [INFO ] : 验证退款进度按钮里面的内容.............................
+16:52:52  [INFO ] : 断言成功，文本等于目标内容！
+16:52:52  [INFO ] : 断言成功，文本等于目标内容！
+16:52:52  [INFO ] : 断言成功，文本等于目标内容！
+16:52:52  [INFO ] : 断言成功，文本等于目标内容！
+16:52:53  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBackId"]元素进行点击
+16:52:53  [INFO ] : 验证未发货取消订单后订单管理页面的按钮变动...................
+16:52:54  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBackId"]元素进行点击
+16:52:54  [INFO ] : 执行cmd命令:  adb shell input swipe 590 436 597 1400 200
+16:52:55  [INFO ] : 断言成功，文本等于目标内容！
+16:52:55  [INFO ] : 断言不相等，文本不等于目标内容！
+16:52:57  [INFO ] : //android.widget.ImageView[@resource-id="com.sdo.qihang.wenbo:id/ivBackId"]元素进行点击
+16:53:01  [INFO ] : chrome浏览器启动
+16:53:02  [INFO ] : ecshop登录成功！
+16:53:12  [ERROR] : org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at com.testing.AppKeyword.KeywordOfApp.explicityWait(KeywordOfApp.java:362) [bin/:?]
+	at com.testing.AppKeyword.KeywordOfApp.click(KeywordOfApp.java:136) [bin/:?]
+	at com.testing.AppiumWwj.goodsOrder.assertDSHReturnFundGoodsOkOrnot(goodsOrder.java:302) [bin/:?]
+	at com.testing.wwjcase.buyGoodsProcess.assertreturnFundOfdaishouhuoOrder(buyGoodsProcess.java:78) [bin/:?]
+	at com.testing.wwjcase.daifahuoOrder.cancleOrder(daifahuoOrder.java:33) [bin/:?]
+	at com.testing.wwjcase.main1.main(main1.java:31) [bin/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_201]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at com.testing.AppKeyword.KeywordOfApp$1.apply(KeywordOfApp.java:356) ~[bin/:?]
+	at com.testing.AppKeyword.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.AppKeyword.KeywordOfApp.explicityWait(KeywordOfApp.java:354) ~[bin/:?]
+	... 5 more
+16:53:13  [ERROR] : org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'SH-JINSHAN01', ip: '10.246.84.98', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at com.testing.AppKeyword.KeywordOfApp.click(KeywordOfApp.java:140) [bin/:?]
+	at com.testing.AppiumWwj.goodsOrder.assertDSHReturnFundGoodsOkOrnot(goodsOrder.java:302) [bin/:?]
+	at com.testing.wwjcase.buyGoodsProcess.assertreturnFundOfdaishouhuoOrder(buyGoodsProcess.java:78) [bin/:?]
+	at com.testing.wwjcase.daifahuoOrder.cancleOrder(daifahuoOrder.java:33) [bin/:?]
+	at com.testing.wwjcase.main1.main(main1.java:31) [bin/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_201]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.0.0.jar:?]
+	at com.testing.AppKeyword.KeywordOfApp.click(KeywordOfApp.java:137) ~[bin/:?]
+	... 4 more

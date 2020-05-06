@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.testing.AppiumQQ&apos; to &apos;com.testing.Appium&apos;&#x0D;&#x0A;- Original project: &apos;Vip03Auto&apos;&#x0D;&#x0A;- Original element: &apos;Vip03Auto/src/com.testing.AppiumQQ&apos;&#x0D;&#x0A;- Renamed element: &apos;Vip03Auto/src/com.testing.Appium&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.testing.AppiumQQ&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.testing.AppiumQQ" name="com.testing.Appium" qualified="false" references="true" stamp="1564646610764" textual="false" version="1.0"/>
+</session>

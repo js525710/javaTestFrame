@@ -1,0 +1,420 @@
+2019-08-01 14:07:21:793 [Appium] Welcome to Appium v1.14.0
+2019-08-01 14:07:21:794 [Appium] Non-default server args:
+2019-08-01 14:07:21:795 [Appium]   address: 127.0.0.1
+2019-08-01 14:07:21:795 [Appium]   logFile: log/20190801+14-07-17AppiumLog.txt
+2019-08-01 14:07:21:795 [Appium]   logTimestamp: true
+2019-08-01 14:07:21:796 [Appium]   localTimezone: true
+2019-08-01 14:07:21:822 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-08-01 14:07:28:351 [HTTP] --> POST /wd/hub/session
+2019-08-01 14:07:28:352 [HTTP] {"desiredCapabilities":{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}}
+2019-08-01 14:07:28:354 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}]
+2019-08-01 14:07:28:354 [BaseDriver] Event 'newSessionRequested' logged at 1564639648354 (14:07:28 GMT+0800 (GMT+08:00))
+2019-08-01 14:07:28:361 [Appium] 
+2019-08-01 14:07:28:361 [Appium] ======================================================================
+2019-08-01 14:07:28:362 [Appium]   DEPRECATION WARNING:
+2019-08-01 14:07:28:362 [Appium] 
+2019-08-01 14:07:28:363 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-08-01 14:07:28:363 [Appium]   capabilities for this Android session
+2019-08-01 14:07:28:364 [Appium] 
+2019-08-01 14:07:28:365 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-08-01 14:07:28:365 [Appium]   UiAutomator2 Driver
+2019-08-01 14:07:28:365 [Appium] 
+2019-08-01 14:07:28:366 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-08-01 14:07:28:367 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-08-01 14:07:28:368 [Appium]   platforms
+2019-08-01 14:07:28:368 [Appium] 
+2019-08-01 14:07:28:369 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-08-01 14:07:28:369 [Appium]   'automationName=UiAutomator1'
+2019-08-01 14:07:28:370 [Appium] 
+2019-08-01 14:07:28:370 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-08-01 14:07:28:371 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-08-01 14:07:28:371 [Appium] 
+2019-08-01 14:07:28:372 [Appium]   For more information about drivers, please visit 
+2019-08-01 14:07:28:372 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-08-01 14:07:28:372 [Appium]   'Drivers' menu
+2019-08-01 14:07:28:373 [Appium] 
+2019-08-01 14:07:28:373 [Appium] ======================================================================
+2019-08-01 14:07:28:373 [Appium] 
+2019-08-01 14:07:28:654 [Appium] Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-08-01 14:07:28:655 [Appium] Capabilities:
+2019-08-01 14:07:28:656 [Appium]   platformName: android
+2019-08-01 14:07:28:657 [Appium]   appActivity: .global.ui.activity.SplashActivity
+2019-08-01 14:07:28:658 [Appium]   appPackage: com.sdo.qihang.wenbo
+2019-08-01 14:07:28:658 [Appium]   deviceName: 79BQSDS5Y5GCZ
+2019-08-01 14:07:28:659 [Appium]   noReset: true
+2019-08-01 14:07:28:659 [Appium]   noSign: true
+2019-08-01 14:07:28:659 [Appium]   platformVersion: 7.0
+2019-08-01 14:07:28:660 [Appium]   resetKeyboard: true
+2019-08-01 14:07:28:660 [Appium]   udid: 79BQSDS5Y5GCZ
+2019-08-01 14:07:28:661 [Appium]   unicodeKeyboard: true
+2019-08-01 14:07:28:663 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-08-01 14:07:28:664 [BaseDriver] Creating session with W3C capabilities: {
+2019-08-01 14:07:28:664 [BaseDriver]   "alwaysMatch": {
+2019-08-01 14:07:28:665 [BaseDriver]     "platformName": "android",
+2019-08-01 14:07:28:665 [BaseDriver]     "appium:appActivity": ".global.ui.activity.SplashActivity",
+2019-08-01 14:07:28:665 [BaseDriver]     "appium:appPackage": "com.sdo.qihang.wenbo",
+2019-08-01 14:07:28:666 [BaseDriver]     "appium:deviceName": "79BQSDS5Y5GCZ",
+2019-08-01 14:07:28:666 [BaseDriver]     "appium:noReset": true,
+2019-08-01 14:07:28:667 [BaseDriver]     "appium:noSign": true,
+2019-08-01 14:07:28:667 [BaseDriver]     "appium:platformVersion": "7.0",
+2019-08-01 14:07:28:668 [BaseDriver]     "appium:resetKeyboard": true,
+2019-08-01 14:07:28:668 [BaseDriver]     "appium:udid": "79BQSDS5Y5GCZ",
+2019-08-01 14:07:28:668 [BaseDriver]     "appium:unicodeKeyboard": true
+2019-08-01 14:07:28:669 [BaseDriver]   },
+2019-08-01 14:07:28:669 [BaseDriver]   "firstMatch": [
+2019-08-01 14:07:28:669 [BaseDriver]     {}
+2019-08-01 14:07:28:670 [BaseDriver]   ]
+2019-08-01 14:07:28:670 [BaseDriver] }
+2019-08-01 14:07:28:677 [BaseDriver] Session created with session id: 63e6f458-904a-4e3a-8690-016c2de952e0
+2019-08-01 14:07:29:103 [ADB] Found 1 'build-tools' folders under 'D:\android-sdk-windows' (newest first):
+2019-08-01 14:07:29:104 [ADB]     D:/android-sdk-windows/build-tools/29.0.1
+2019-08-01 14:07:29:105 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-01 14:07:29:106 [AndroidDriver] Retrieving device list
+2019-08-01 14:07:29:107 [ADB] Trying to find a connected android device
+2019-08-01 14:07:29:108 [ADB] Getting connected devices...
+2019-08-01 14:07:29:585 [ADB] 1 device(s) connected
+2019-08-01 14:07:29:586 [AndroidDriver] Using device: 79BQSDS5Y5GCZ
+2019-08-01 14:07:29:587 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-01 14:07:29:588 [ADB] Setting device id to 79BQSDS5Y5GCZ
+2019-08-01 14:07:29:589 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell getprop ro.build.version.sdk'
+2019-08-01 14:07:30:100 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-08-01 14:07:30:100 [ADB] Device API level: 24
+2019-08-01 14:07:30:101 [AndroidDriver] No app sent in, not parsing package/activity
+2019-08-01 14:07:30:102 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ wait-for-device'
+2019-08-01 14:07:30:560 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell echo ping'
+2019-08-01 14:07:31:048 [AndroidDriver] Pushing settings apk to device...
+2019-08-01 14:07:31:049 [ADB] Getting install status for io.appium.settings
+2019-08-01 14:07:31:050 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-08-01 14:07:31:580 [ADB] 'io.appium.settings' is installed
+2019-08-01 14:07:31:581 [ADB] Getting package info for 'io.appium.settings'
+2019-08-01 14:07:31:581 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-08-01 14:07:32:141 [ADB] Using 'aapt.exe' from 'D:\android-sdk-windows\build-tools\29.0.1\aapt.exe'
+2019-08-01 14:07:32:591 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2019-08-01 14:07:32:592 [ADB] There is no need to install/upgrade 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.1@io.appium.settings\apks\settings_apk-debug.apk'
+2019-08-01 14:07:32:592 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-08-01 14:07:32:593 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell 'pgrep --help; echo $?''
+2019-08-01 14:07:33:081 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pgrep \^appium\\.settings\$'
+2019-08-01 14:07:33:616 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-08-01 14:07:33:617 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell appops set io.appium.settings android\:mock_location allow'
+2019-08-01 14:07:34:160 [Logcat] Starting logcat capture
+2019-08-01 14:07:34:644 [AndroidDriver] Enabling Unicode keyboard support
+2019-08-01 14:07:34:645 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell settings get secure default_input_method'
+2019-08-01 14:07:35:858 [AndroidDriver] Unsetting previous IME com.sohu.inputmethod.sogou/.SogouIME
+2019-08-01 14:07:35:858 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-08-01 14:07:35:859 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime enable io.appium.settings/.UnicodeIME'
+2019-08-01 14:07:37:104 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime set io.appium.settings/.UnicodeIME'
+2019-08-01 14:07:38:321 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-08-01 14:07:38:322 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-08-01 14:07:38:810 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-08-01 14:07:38:810 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-08-01 14:07:38:811 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-08-01 14:07:39:811 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.0' >= '3.8.0')
+2019-08-01 14:07:39:812 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-08-01 14:07:39:812 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk
+2019-08-01 14:07:39:814 [ADB] Using 'apksigner.bat' from 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat'
+2019-08-01 14:07:39:814 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.8.0.apk"]'
+2019-08-01 14:07:44:436 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-08-01 14:07:44:437 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-08-01 14:07:44:438 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-08-01 14:07:44:439 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-08-01 14:07:44:439 [ADB] 
+2019-08-01 14:07:44:440 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' is already signed.
+2019-08-01 14:07:44:440 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-08-01 14:07:44:441 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server.test'
+2019-08-01 14:07:44:978 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-08-01 14:07:44:979 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-08-01 14:07:44:980 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-08-01 14:07:49:552 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-08-01 14:07:49:554 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-08-01 14:07:49:554 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-08-01 14:07:49:555 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-08-01 14:07:49:555 [ADB] 
+2019-08-01 14:07:49:556 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-08-01 14:07:49:556 [UiAutomator2] Server packages are not going to be (re)installed
+2019-08-01 14:07:49:557 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-08-01 14:07:49:557 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pm list instrumentation'
+2019-08-01 14:07:50:758 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-08-01 14:07:50:759 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
+2019-08-01 14:07:50:760 [ADB] Forwarding system: 8202 to device: 6790
+2019-08-01 14:07:50:761 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ forward tcp\:8202 tcp\:6790'
+2019-08-01 14:07:51:230 [UiAutomator2] No app capability. Assuming it is already on the device
+2019-08-01 14:07:51:232 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-08-01 14:07:51:260 [UiAutomator2] The following obsolete sessions are still running: ["4a4faf73-c76a-40eb-9bdf-4176f6123735"]
+2019-08-01 14:07:51:260 [UiAutomator2] Cleaning up the obsolete sessions
+2019-08-01 14:07:52:315 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am force-stop io.appium.uiautomator2.server.test'
+2019-08-01 14:07:53:485 [UiAutomator2] Starting UIAutomator2 server 3.8.0
+2019-08-01 14:07:53:486 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' and test from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-08-01 14:07:53:487 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-08-01 14:07:53:488 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","79BQSDS5Y5GCZ","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-08-01 14:07:54:496 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-08-01 14:07:54:498 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+2019-08-01 14:07:54:507 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-08-01 14:07:55:136 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-08-01 14:07:55:515 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-08-01 14:07:55:516 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+2019-08-01 14:07:55:523 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-08-01 14:07:56:535 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-08-01 14:07:56:535 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+2019-08-01 14:07:56:575 [WD Proxy] Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2019-08-01 14:07:56:576 [WD Proxy] Determined the downstream protocol for the proxy as 'MJSONWP'
+2019-08-01 14:07:56:577 [UiAutomator2] The initialization of the instrumentation process took 3091ms
+2019-08-01 14:07:56:578 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-08-01 14:07:56:579 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8202/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ"}}
+2019-08-01 14:07:56:606 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":"Created Session"}
+2019-08-01 14:07:56:614 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/appium/device/info] with no body
+2019-08-01 14:07:56:651 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"androidId":"dce7f5af95551f9c","manufacturer":"Meizu","model":"PRO 7-S","brand":"Meizu","apiVersion":"24","platformVersion":"7.0","carrierName":"","realDisplaySize":"1080x1920","displayDensity":480,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"BBY_TEST_2.4G\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-39,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2019-08-01 14:07:56:652 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys window'
+2019-08-01 14:07:57:184 [AndroidDriver] Screen already unlocked, doing nothing
+2019-08-01 14:07:57:184 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity'. Starting it ourselves
+2019-08-01 14:07:57:185 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am start -W -n com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-08-01 14:07:59:587 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/appium/device/pixel_ratio] with body: {}
+2019-08-01 14:07:59:598 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":3}
+2019-08-01 14:07:59:600 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-08-01 14:07:59:600 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/appium/device/system_bars] with body: {}
+2019-08-01 14:07:59:613 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"statusBar":66}}
+2019-08-01 14:07:59:614 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-08-01 14:07:59:615 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/window/current/size] with body: {}
+2019-08-01 14:07:59:628 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"height":1920,"width":1080}}
+2019-08-01 14:07:59:629 [Appium] New AndroidUiautomator2Driver session created successfully, session 63e6f458-904a-4e3a-8690-016c2de952e0 added to master session list
+2019-08-01 14:07:59:630 [BaseDriver] Event 'newSessionStarted' logged at 1564639679630 (14:07:59 GMT+0800 (GMT+08:00))
+2019-08-01 14:07:59:631 [W3C (63e6f458)] Cached the protocol value 'W3C' for the new session 63e6f458-904a-4e3a-8690-016c2de952e0
+2019-08-01 14:07:59:632 [W3C (63e6f458)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}}
+2019-08-01 14:07:59:637 [HTTP] <-- POST /wd/hub/session 200 31284 ms - 1062
+2019-08-01 14:07:59:638 [HTTP] 
+2019-08-01 14:07:59:668 [HTTP] --> GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0
+2019-08-01 14:07:59:669 [HTTP] {}
+2019-08-01 14:07:59:671 [W3C (63e6f458)] Calling AppiumDriver.getSession() with args: ["63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:07:59:689 [UiAutomator2] Getting session details from server to mix in
+2019-08-01 14:07:59:690 [WD Proxy] Matched '/' to command name 'getSession'
+2019-08-01 14:07:59:691 [WD Proxy] Proxying [GET /] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4] with body: {}
+2019-08-01 14:07:59:702 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{}}
+2019-08-01 14:07:59:703 [W3C (63e6f458)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}
+2019-08-01 14:07:59:706 [HTTP] <-- GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0 200 38 ms - 994
+2019-08-01 14:07:59:707 [HTTP] 
+2019-08-01 14:07:59:715 [HTTP] --> GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0
+2019-08-01 14:07:59:716 [HTTP] {}
+2019-08-01 14:07:59:716 [W3C (63e6f458)] Calling AppiumDriver.getSession() with args: ["63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:07:59:718 [UiAutomator2] Getting session details from server to mix in
+2019-08-01 14:07:59:718 [WD Proxy] Matched '/' to command name 'getSession'
+2019-08-01 14:07:59:718 [WD Proxy] Proxying [GET /] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4] with body: {}
+2019-08-01 14:07:59:729 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{}}
+2019-08-01 14:07:59:731 [W3C (63e6f458)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ","deviceApiLevel":24,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"PRO 7-S","deviceManufacturer":"Meizu","pixelRatio":3,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":1854}}
+2019-08-01 14:07:59:734 [HTTP] <-- GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0 200 19 ms - 994
+2019-08-01 14:07:59:735 [HTTP] 
+2019-08-01 14:08:09:736 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/timeouts
+2019-08-01 14:08:09:737 [HTTP] {"implicit":10000}
+2019-08-01 14:08:09:739 [W3C (63e6f458)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:09:739 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-08-01 14:08:09:740 [BaseDriver] Set implicit wait to 10000ms
+2019-08-01 14:08:09:740 [W3C (63e6f458)] Responding to client with driver.timeouts() result: null
+2019-08-01 14:08:09:741 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/timeouts 200 8 ms - 14
+2019-08-01 14:08:09:742 [HTTP] 
+2019-08-01 14:08:09:763 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:09:764 [HTTP] {"using":"xpath","value":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView"}
+2019-08-01 14:08:09:767 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:09:769 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:09:769 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:09:770 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:09:771 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","context":"","multiple":false}
+2019-08-01 14:08:10:302 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"ELEMENT":"8efd682b-e465-4347-bc29-d3861eb9fdb7"}}
+2019-08-01 14:08:10:303 [W3C (63e6f458)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8efd682b-e465-4347-bc29-d3861eb9fdb7","ELEMENT":"8efd682b-e465-4347-bc29-d3861eb9fdb7"}
+2019-08-01 14:08:10:305 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 200 543 ms - 137
+2019-08-01 14:08:10:305 [HTTP] 
+2019-08-01 14:08:10:324 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:10:324 [HTTP] {"using":"xpath","value":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView"}
+2019-08-01 14:08:10:325 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:10:326 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:10:326 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:10:327 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:10:328 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.HorizontalScrollView[@resource-id=\"com.sdo.qihang.wenbo:id/tabLayout\"]/android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[5]/android.widget.LinearLayout/android.widget.ImageView","context":"","multiple":false}
+2019-08-01 14:08:10:761 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"ELEMENT":"66a9e9a5-143c-4e8a-8984-9ab3eeb942bb"}}
+2019-08-01 14:08:10:763 [W3C (63e6f458)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"66a9e9a5-143c-4e8a-8984-9ab3eeb942bb","ELEMENT":"66a9e9a5-143c-4e8a-8984-9ab3eeb942bb"}
+2019-08-01 14:08:10:764 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 200 442 ms - 137
+2019-08-01 14:08:10:765 [HTTP] 
+2019-08-01 14:08:10:773 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/66a9e9a5-143c-4e8a-8984-9ab3eeb942bb/click
+2019-08-01 14:08:10:773 [HTTP] {"id":"66a9e9a5-143c-4e8a-8984-9ab3eeb942bb"}
+2019-08-01 14:08:10:774 [W3C (63e6f458)] Calling AppiumDriver.click() with args: ["66a9e9a5-143c-4e8a-8984-9ab3eeb942bb","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:10:776 [WD Proxy] Matched '/element/66a9e9a5-143c-4e8a-8984-9ab3eeb942bb/click' to command name 'click'
+2019-08-01 14:08:10:776 [WD Proxy] Proxying [POST /element/66a9e9a5-143c-4e8a-8984-9ab3eeb942bb/click] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element/66a9e9a5-143c-4e8a-8984-9ab3eeb942bb/click] with body: {"element":"66a9e9a5-143c-4e8a-8984-9ab3eeb942bb"}
+2019-08-01 14:08:10:825 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":true}
+2019-08-01 14:08:10:826 [W3C (63e6f458)] Responding to client with driver.click() result: true
+2019-08-01 14:08:10:828 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/66a9e9a5-143c-4e8a-8984-9ab3eeb942bb/click 200 57 ms - 14
+2019-08-01 14:08:10:829 [HTTP] 
+2019-08-01 14:08:10:843 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:10:844 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]"}
+2019-08-01 14:08:10:845 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:10:846 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:10:848 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:10:849 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:10:850 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","context":"","multiple":false}
+2019-08-01 14:08:11:282 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"ELEMENT":"121d14e4-4550-4cf0-aeb7-f45e5397b87a"}}
+2019-08-01 14:08:11:283 [W3C (63e6f458)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"121d14e4-4550-4cf0-aeb7-f45e5397b87a","ELEMENT":"121d14e4-4550-4cf0-aeb7-f45e5397b87a"}
+2019-08-01 14:08:11:285 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 200 443 ms - 137
+2019-08-01 14:08:11:286 [HTTP] 
+2019-08-01 14:08:11:293 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:11:293 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]"}
+2019-08-01 14:08:11:293 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:11:295 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:11:295 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:11:296 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:11:297 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@resource-id=\"com.sdo.qihang.wenbo:id/tvNickName\"]","context":"","multiple":false}
+2019-08-01 14:08:11:843 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":{"ELEMENT":"5163cf34-d36c-4ab0-a3ee-8226096ce0bc"}}
+2019-08-01 14:08:11:845 [W3C (63e6f458)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5163cf34-d36c-4ab0-a3ee-8226096ce0bc","ELEMENT":"5163cf34-d36c-4ab0-a3ee-8226096ce0bc"}
+2019-08-01 14:08:11:846 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 200 554 ms - 137
+2019-08-01 14:08:11:847 [HTTP] 
+2019-08-01 14:08:11:849 [HTTP] --> GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/5163cf34-d36c-4ab0-a3ee-8226096ce0bc/text
+2019-08-01 14:08:11:849 [HTTP] {}
+2019-08-01 14:08:11:851 [W3C (63e6f458)] Driver proxy active, passing request on via HTTP proxy
+2019-08-01 14:08:11:852 [WD Proxy] Matched '/wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/5163cf34-d36c-4ab0-a3ee-8226096ce0bc/text' to command name 'getText'
+2019-08-01 14:08:11:853 [WD Proxy] Proxying [GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/5163cf34-d36c-4ab0-a3ee-8226096ce0bc/text] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element/5163cf34-d36c-4ab0-a3ee-8226096ce0bc/text] with body: {}
+2019-08-01 14:08:11:874 [WD Proxy] Got response with status 200: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":"昵称"}
+2019-08-01 14:08:11:875 [WD Proxy] Replacing sessionId 8ebf4417-81bd-448d-85f2-7f5d84e343b4 with 63e6f458-904a-4e3a-8690-016c2de952e0
+2019-08-01 14:08:11:877 [HTTP] <-- GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element/5163cf34-d36c-4ab0-a3ee-8226096ce0bc/text 200 27 ms - 80
+2019-08-01 14:08:11:878 [HTTP] 
+2019-08-01 14:08:11:882 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:11:882 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']"}
+2019-08-01 14:08:11:882 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:11:883 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:11:884 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:11:884 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:11:885 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:12:166 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:12:167 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:12:168 [BaseDriver] Waited for 283 ms so far
+2019-08-01 14:08:12:672 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:12:673 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:12:944 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:12:944 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:12:945 [BaseDriver] Waited for 1060 ms so far
+2019-08-01 14:08:13:453 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:13:454 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:13:818 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:13:819 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:13:819 [BaseDriver] Waited for 1935 ms so far
+2019-08-01 14:08:14:322 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:14:324 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:14:986 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:14:987 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:14:988 [BaseDriver] Waited for 3103 ms so far
+2019-08-01 14:08:15:492 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:15:493 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:16:001 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:16:002 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:16:002 [BaseDriver] Waited for 4118 ms so far
+2019-08-01 14:08:16:512 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:16:513 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:16:978 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:16:979 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:16:980 [BaseDriver] Waited for 5095 ms so far
+2019-08-01 14:08:17:482 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:17:483 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:18:004 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:18:005 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:18:005 [BaseDriver] Waited for 6121 ms so far
+2019-08-01 14:08:18:512 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:18:513 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:18:918 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:18:919 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:18:919 [BaseDriver] Waited for 7035 ms so far
+2019-08-01 14:08:19:422 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:19:423 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:19:787 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:19:788 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:19:789 [BaseDriver] Waited for 7904 ms so far
+2019-08-01 14:08:20:292 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:20:293 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:20:679 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:20:680 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:20:680 [BaseDriver] Waited for 8796 ms so far
+2019-08-01 14:08:21:186 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:21:187 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:21:578 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:21:579 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:21:580 [BaseDriver] Waited for 9695 ms so far
+2019-08-01 14:08:22:085 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:22:085 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:22:470 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:22:471 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:22:473 [W3C (63e6f458)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-08-01 14:08:22:474 [W3C (63e6f458)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.18.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-08-01 14:08:22:477 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 404 10589 ms - 457
+2019-08-01 14:08:22:477 [HTTP] 
+2019-08-01 14:08:22:498 [HTTP] --> POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element
+2019-08-01 14:08:22:498 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']"}
+2019-08-01 14:08:22:499 [W3C (63e6f458)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:22:500 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-08-01 14:08:22:500 [BaseDriver] Waiting up to 10000 ms for condition
+2019-08-01 14:08:22:500 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:22:501 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:22:886 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:22:887 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:22:888 [BaseDriver] Waited for 387 ms so far
+2019-08-01 14:08:23:397 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:23:398 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:23:772 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:23:773 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:23:774 [BaseDriver] Waited for 1273 ms so far
+2019-08-01 14:08:24:277 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:24:278 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:24:613 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:24:614 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:24:614 [BaseDriver] Waited for 2114 ms so far
+2019-08-01 14:08:25:117 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:25:118 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:25:512 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:25:513 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:25:514 [BaseDriver] Waited for 3014 ms so far
+2019-08-01 14:08:26:017 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:26:018 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:26:397 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:26:398 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:26:399 [BaseDriver] Waited for 3898 ms so far
+2019-08-01 14:08:26:907 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:26:908 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:27:301 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:27:302 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:27:302 [BaseDriver] Waited for 4802 ms so far
+2019-08-01 14:08:27:807 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:27:808 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:28:202 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:28:203 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:28:204 [BaseDriver] Waited for 5703 ms so far
+2019-08-01 14:08:28:707 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:28:708 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:29:085 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:29:086 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:29:086 [BaseDriver] Waited for 6586 ms so far
+2019-08-01 14:08:29:597 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:29:598 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:29:977 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:29:977 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:29:978 [BaseDriver] Waited for 7477 ms so far
+2019-08-01 14:08:30:485 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:30:485 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:31:021 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:31:022 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:31:023 [BaseDriver] Waited for 8522 ms so far
+2019-08-01 14:08:31:525 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:31:525 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:32:011 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:32:012 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:32:012 [BaseDriver] Waited for 9512 ms so far
+2019-08-01 14:08:32:517 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-08-01 14:08:32:518 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='com.sdo.qihang.wenbo:id/etPhoneNumber']","context":"","multiple":false}
+2019-08-01 14:08:32:879 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2019-08-01 14:08:32:880 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-08-01 14:08:32:881 [W3C (63e6f458)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-08-01 14:08:32:882 [W3C (63e6f458)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.18.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-08-01 14:08:32:884 [HTTP] <-- POST /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/element 404 10387 ms - 457
+2019-08-01 14:08:32:884 [HTTP] 
+2019-08-01 14:08:32:890 [HTTP] --> GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/screenshot
+2019-08-01 14:08:32:890 [HTTP] {}
+2019-08-01 14:08:32:891 [W3C (63e6f458)] Calling AppiumDriver.getScreenshot() with args: ["63e6f458-904a-4e3a-8690-016c2de952e0"]
+2019-08-01 14:08:32:892 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2019-08-01 14:08:32:892 [WD Proxy] Proxying [GET /screenshot] to [GET http://localhost:8202/wd/hub/session/8ebf4417-81bd-448d-85f2-7f5d84e343b4/screenshot] with no body
+2019-08-01 14:08:34:090 [WD Proxy] Got an unexpected response: {"sessionId":"8ebf4417-81bd-448d-85f2-7f5d84e343b4","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzsnXdcU9f\/\/18JSQiQsGSL4B6Ie1vFUQdaW3e11dZVq7a1tdXWaqu1tWidH1urtVr16yjOilsR\n0RatUgcgDhAVcLJXCNkkvz9I7i8hNwOSQKLn+Xj4MNzce+65yfue3PM+7\/frzZDL5SoQCDZEoVCA\nxWLVdzcILznEzgh1AbEzQl1A7IxQFygUCjgPHVrf3SC85EhjY4mdEWxOZXw89ZpZj\/0gEAgEAoFA\nIBAIBAKBQLAKxMFBIBAIBAKBQCAQCAQCweEhDg4CgUAgEAgEAoFAIBAIDg9xcBAIBAKBQCAQCAQC\ngUBweIiDg0AgEAgEAoFAIBAIBILDQyS6CXbL3LlzIZPJEBAQgO+\/\/76+u0N4SSF2RiAQCAQCgUAg\nvBwwtMvEnj17FmlpaQZ3ZrFY8PLyQlhYGDp37mzzzj148ACHDh1Ceno6hEIhPD090bFjR4wfPx6B\ngYFWP9\/WrVtRUVGBLl26ICIiwqK2YmNjkZ2djVmzZlmpd45LbcvdeXl5QSgUonXr1rh9+za1XfM9\nAUD37t3x2muvmWzrzJkzSE9PBwD4+vpi8uTJNe6PMerCVuv6fnA0rGln+\/fvR05ODgCgdevWGDZs\nmFltadtZo0aNMG7cuBr3xxDExuwDbTuzx7HIEoiN2Q8aO7PHscgSiI3ZF9XLxJ4pLsY9sdjg\/mwA\nniwW2rq5oQuPVwc9rHvOFhcjSyLBnKAgq7WZIRLhUGEh0kQiCCsr4clioSOPhwm+vgjkcKx2HnvF\nWJnYYoUCB\/PzkVxRgUK5HEoAXiwWwt3c8Ja3N5q7uBhs90RREXbn5aE9j4clISE26r19QOzSNNpl\nYnU...
+2019-08-01 14:08:34:098 [W3C (63e6f458)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: The request to /screenshot has failed
+2019-08-01 14:08:34:099 [W3C (63e6f458)]     at JWProxy.command (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@3.17.1@appium-base-driver\lib\jsonwp-proxy\proxy.js:248:13)
+2019-08-01 14:08:34:101 [HTTP] <-- GET /wd/hub/session/63e6f458-904a-4e3a-8690-016c2de952e0/screenshot 500 1211 ms - 629
+2019-08-01 14:08:34:101 [HTTP] 
+2019-08-01 14:09:01:212 [Instrumentation] The process has exited with code 3221225786

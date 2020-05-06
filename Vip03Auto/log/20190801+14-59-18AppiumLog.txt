@@ -1,0 +1,84 @@
+2019-08-01 14:59:22:079 [Appium] Welcome to Appium v1.14.0
+2019-08-01 14:59:22:080 [Appium] Non-default server args:
+2019-08-01 14:59:22:080 [Appium]   address: 127.0.0.1
+2019-08-01 14:59:22:081 [Appium]   logFile: log/20190801+14-59-18AppiumLog.txt
+2019-08-01 14:59:22:081 [Appium]   logTimestamp: true
+2019-08-01 14:59:22:081 [Appium]   localTimezone: true
+2019-08-01 14:59:22:104 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-08-01 14:59:28:688 [HTTP] --> POST /wd/hub/session
+2019-08-01 14:59:28:689 [HTTP] {"desiredCapabilities":{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}}
+2019-08-01 14:59:28:691 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}]
+2019-08-01 14:59:28:692 [BaseDriver] Event 'newSessionRequested' logged at 1564642768692 (14:59:28 GMT+0800 (GMT+08:00))
+2019-08-01 14:59:28:698 [Appium] 
+2019-08-01 14:59:28:699 [Appium] ======================================================================
+2019-08-01 14:59:28:699 [Appium]   DEPRECATION WARNING:
+2019-08-01 14:59:28:700 [Appium] 
+2019-08-01 14:59:28:701 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-08-01 14:59:28:701 [Appium]   capabilities for this Android session
+2019-08-01 14:59:28:701 [Appium] 
+2019-08-01 14:59:28:702 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-08-01 14:59:28:702 [Appium]   UiAutomator2 Driver
+2019-08-01 14:59:28:702 [Appium] 
+2019-08-01 14:59:28:703 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-08-01 14:59:28:703 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-08-01 14:59:28:703 [Appium]   platforms
+2019-08-01 14:59:28:704 [Appium] 
+2019-08-01 14:59:28:704 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-08-01 14:59:28:705 [Appium]   'automationName=UiAutomator1'
+2019-08-01 14:59:28:706 [Appium] 
+2019-08-01 14:59:28:706 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-08-01 14:59:28:707 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-08-01 14:59:28:707 [Appium] 
+2019-08-01 14:59:28:707 [Appium]   For more information about drivers, please visit 
+2019-08-01 14:59:28:708 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-08-01 14:59:28:708 [Appium]   'Drivers' menu
+2019-08-01 14:59:28:709 [Appium] 
+2019-08-01 14:59:28:709 [Appium] ======================================================================
+2019-08-01 14:59:28:709 [Appium] 
+2019-08-01 14:59:28:992 [Appium] Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-08-01 14:59:28:993 [Appium] Capabilities:
+2019-08-01 14:59:28:994 [Appium]   platformName: android
+2019-08-01 14:59:28:995 [Appium]   appActivity: .global.ui.activity.SplashActivity
+2019-08-01 14:59:28:995 [Appium]   appPackage: com.sdo.qihang.wenbo
+2019-08-01 14:59:28:995 [Appium]   deviceName: 79BQSDS5Y5GCZ
+2019-08-01 14:59:28:996 [Appium]   noReset: true
+2019-08-01 14:59:28:996 [Appium]   noSign: true
+2019-08-01 14:59:28:997 [Appium]   platformVersion: 7.0
+2019-08-01 14:59:28:997 [Appium]   resetKeyboard: true
+2019-08-01 14:59:28:997 [Appium]   udid: 79BQSDS5Y5GCZ
+2019-08-01 14:59:28:998 [Appium]   unicodeKeyboard: true
+2019-08-01 14:59:29:000 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-08-01 14:59:29:000 [BaseDriver] Creating session with W3C capabilities: {
+2019-08-01 14:59:29:001 [BaseDriver]   "alwaysMatch": {
+2019-08-01 14:59:29:001 [BaseDriver]     "platformName": "android",
+2019-08-01 14:59:29:002 [BaseDriver]     "appium:appActivity": ".global.ui.activity.SplashActivity",
+2019-08-01 14:59:29:002 [BaseDriver]     "appium:appPackage": "com.sdo.qihang.wenbo",
+2019-08-01 14:59:29:002 [BaseDriver]     "appium:deviceName": "79BQSDS5Y5GCZ",
+2019-08-01 14:59:29:003 [BaseDriver]     "appium:noReset": true,
+2019-08-01 14:59:29:003 [BaseDriver]     "appium:noSign": true,
+2019-08-01 14:59:29:003 [BaseDriver]     "appium:platformVersion": "7.0",
+2019-08-01 14:59:29:004 [BaseDriver]     "appium:resetKeyboard": true,
+2019-08-01 14:59:29:005 [BaseDriver]     "appium:udid": "79BQSDS5Y5GCZ",
+2019-08-01 14:59:29:005 [BaseDriver]     "appium:unicodeKeyboard": true
+2019-08-01 14:59:29:005 [BaseDriver]   },
+2019-08-01 14:59:29:006 [BaseDriver]   "firstMatch": [
+2019-08-01 14:59:29:006 [BaseDriver]     {}
+2019-08-01 14:59:29:006 [BaseDriver]   ]
+2019-08-01 14:59:29:007 [BaseDriver] }
+2019-08-01 14:59:29:014 [BaseDriver] Session created with session id: c7b9be93-636b-4c7a-8576-8515543858f7
+2019-08-01 14:59:29:449 [ADB] Found 1 'build-tools' folders under 'D:\android-sdk-windows' (newest first):
+2019-08-01 14:59:29:451 [ADB]     D:/android-sdk-windows/build-tools/29.0.1
+2019-08-01 14:59:29:452 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-01 14:59:29:453 [AndroidDriver] Retrieving device list
+2019-08-01 14:59:29:453 [ADB] Trying to find a connected android device
+2019-08-01 14:59:29:454 [ADB] Getting connected devices...
+2019-08-01 14:59:29:929 [ADB] 1 device(s) connected
+2019-08-01 14:59:29:930 [AndroidDriver] Using device: 79BQSDS5Y5GCZ
+2019-08-01 14:59:29:931 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-08-01 14:59:29:931 [ADB] Setting device id to 79BQSDS5Y5GCZ
+2019-08-01 14:59:29:932 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell getprop ro.build.version.sdk'
+2019-08-01 14:59:30:497 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-08-01 14:59:30:498 [ADB] Device API level: 24
+2019-08-01 14:59:30:498 [AndroidDriver] No app sent in, not parsing package/activity
+2019-08-01 14:59:30:499 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ wait-for-device'
+2019-08-01 14:59:30:994 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell echo ping'

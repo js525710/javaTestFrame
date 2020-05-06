@@ -1,0 +1,197 @@
+2019-07-25 15:28:16:782 [Appium] Welcome to Appium v1.14.0
+2019-07-25 15:28:16:783 [Appium] Non-default server args:
+2019-07-25 15:28:16:784 [Appium]   address: 127.0.0.1
+2019-07-25 15:28:16:784 [Appium]   logFile: log/20190725+15-28-11AppiumLog.txt
+2019-07-25 15:28:16:784 [Appium]   logTimestamp: true
+2019-07-25 15:28:16:784 [Appium]   localTimezone: true
+2019-07-25 15:28:16:810 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2019-07-25 15:28:22:583 [HTTP] --> POST /wd/hub/session
+2019-07-25 15:28:22:583 [HTTP] {"desiredCapabilities":{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}}
+2019-07-25 15:28:22:586 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","noReset":true,"noSign":true,"platformVersion":"7.0","unicodeKeyboard":true,"platformName":"Android","udid":"79BQSDS5Y5GCZ","deviceName":"79BQSDS5Y5GCZ","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":".global.ui.activity.SplashActivity","appium:appPackage":"com.sdo.qihang.wenbo","appium:deviceName":"79BQSDS5Y5GCZ","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"7.0","appium:resetKeyboard":true,"appium:udid":"79BQSDS5Y5GCZ","appium:unicodeKeyboard":true}]}]
+2019-07-25 15:28:22:586 [BaseDriver] Event 'newSessionRequested' logged at 1564039702586 (15:28:22 GMT+0800 (GMT+08:00))
+2019-07-25 15:28:22:592 [Appium] 
+2019-07-25 15:28:22:593 [Appium] ======================================================================
+2019-07-25 15:28:22:594 [Appium]   DEPRECATION WARNING:
+2019-07-25 15:28:22:594 [Appium] 
+2019-07-25 15:28:22:595 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-07-25 15:28:22:595 [Appium]   capabilities for this Android session
+2019-07-25 15:28:22:596 [Appium] 
+2019-07-25 15:28:22:596 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-07-25 15:28:22:596 [Appium]   UiAutomator2 Driver
+2019-07-25 15:28:22:597 [Appium] 
+2019-07-25 15:28:22:597 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-07-25 15:28:22:597 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-07-25 15:28:22:598 [Appium]   platforms
+2019-07-25 15:28:22:598 [Appium] 
+2019-07-25 15:28:22:598 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-07-25 15:28:22:599 [Appium]   'automationName=UiAutomator1'
+2019-07-25 15:28:22:599 [Appium] 
+2019-07-25 15:28:22:599 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-07-25 15:28:22:600 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-07-25 15:28:22:600 [Appium] 
+2019-07-25 15:28:22:600 [Appium]   For more information about drivers, please visit 
+2019-07-25 15:28:22:601 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-07-25 15:28:22:601 [Appium]   'Drivers' menu
+2019-07-25 15:28:22:601 [Appium] 
+2019-07-25 15:28:22:602 [Appium] ======================================================================
+2019-07-25 15:28:22:602 [Appium] 
+2019-07-25 15:28:22:915 [Appium] Appium v1.14.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-07-25 15:28:22:916 [Appium] Capabilities:
+2019-07-25 15:28:22:917 [Appium]   platformName: android
+2019-07-25 15:28:22:918 [Appium]   appActivity: .global.ui.activity.SplashActivity
+2019-07-25 15:28:22:919 [Appium]   appPackage: com.sdo.qihang.wenbo
+2019-07-25 15:28:22:919 [Appium]   deviceName: 79BQSDS5Y5GCZ
+2019-07-25 15:28:22:919 [Appium]   noReset: true
+2019-07-25 15:28:22:920 [Appium]   noSign: true
+2019-07-25 15:28:22:920 [Appium]   platformVersion: 7.0
+2019-07-25 15:28:22:920 [Appium]   resetKeyboard: true
+2019-07-25 15:28:22:921 [Appium]   udid: 79BQSDS5Y5GCZ
+2019-07-25 15:28:22:921 [Appium]   unicodeKeyboard: true
+2019-07-25 15:28:22:923 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-07-25 15:28:22:924 [BaseDriver] Creating session with W3C capabilities: {
+2019-07-25 15:28:22:924 [BaseDriver]   "alwaysMatch": {
+2019-07-25 15:28:22:925 [BaseDriver]     "platformName": "android",
+2019-07-25 15:28:22:925 [BaseDriver]     "appium:appActivity": ".global.ui.activity.SplashActivity",
+2019-07-25 15:28:22:926 [BaseDriver]     "appium:appPackage": "com.sdo.qihang.wenbo",
+2019-07-25 15:28:22:926 [BaseDriver]     "appium:deviceName": "79BQSDS5Y5GCZ",
+2019-07-25 15:28:22:926 [BaseDriver]     "appium:noReset": true,
+2019-07-25 15:28:22:927 [BaseDriver]     "appium:noSign": true,
+2019-07-25 15:28:22:927 [BaseDriver]     "appium:platformVersion": "7.0",
+2019-07-25 15:28:22:927 [BaseDriver]     "appium:resetKeyboard": true,
+2019-07-25 15:28:22:928 [BaseDriver]     "appium:udid": "79BQSDS5Y5GCZ",
+2019-07-25 15:28:22:928 [BaseDriver]     "appium:unicodeKeyboard": true
+2019-07-25 15:28:22:929 [BaseDriver]   },
+2019-07-25 15:28:22:929 [BaseDriver]   "firstMatch": [
+2019-07-25 15:28:22:929 [BaseDriver]     {}
+2019-07-25 15:28:22:930 [BaseDriver]   ]
+2019-07-25 15:28:22:930 [BaseDriver] }
+2019-07-25 15:28:22:936 [BaseDriver] Session created with session id: 6db8fb0c-582c-4ecb-a61f-a1008f0c0e63
+2019-07-25 15:28:23:390 [ADB] Found 1 'build-tools' folders under 'D:\android-sdk-windows' (newest first):
+2019-07-25 15:28:23:391 [ADB]     D:/android-sdk-windows/build-tools/29.0.1
+2019-07-25 15:28:23:392 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-07-25 15:28:23:392 [AndroidDriver] Retrieving device list
+2019-07-25 15:28:23:393 [ADB] Trying to find a connected android device
+2019-07-25 15:28:23:394 [ADB] Getting connected devices...
+2019-07-25 15:28:24:037 [ADB] 1 device(s) connected
+2019-07-25 15:28:24:038 [AndroidDriver] Using device: 79BQSDS5Y5GCZ
+2019-07-25 15:28:24:039 [ADB] Using 'adb.exe' from 'D:\android-sdk-windows\platform-tools\adb.exe'
+2019-07-25 15:28:24:040 [ADB] Setting device id to 79BQSDS5Y5GCZ
+2019-07-25 15:28:24:042 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell getprop ro.build.version.sdk'
+2019-07-25 15:28:24:689 [ADB] Current device property 'ro.build.version.sdk': 24
+2019-07-25 15:28:24:689 [ADB] Device API level: 24
+2019-07-25 15:28:24:690 [AndroidDriver] No app sent in, not parsing package/activity
+2019-07-25 15:28:24:691 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ wait-for-device'
+2019-07-25 15:28:25:310 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell echo ping'
+2019-07-25 15:28:25:946 [AndroidDriver] Pushing settings apk to device...
+2019-07-25 15:28:25:947 [ADB] Getting install status for io.appium.settings
+2019-07-25 15:28:25:947 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-07-25 15:28:26:631 [ADB] 'io.appium.settings' is installed
+2019-07-25 15:28:26:632 [ADB] Getting package info for 'io.appium.settings'
+2019-07-25 15:28:26:633 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.settings'
+2019-07-25 15:28:27:311 [ADB] Using 'aapt.exe' from 'D:\android-sdk-windows\build-tools\29.0.1\aapt.exe'
+2019-07-25 15:28:27:917 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2019-07-25 15:28:27:918 [ADB] There is no need to install/upgrade 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.1@io.appium.settings\apks\settings_apk-debug.apk'
+2019-07-25 15:28:27:919 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-25 15:28:27:920 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell 'pgrep --help; echo $?''
+2019-07-25 15:28:28:554 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pgrep \^appium\\.settings\$'
+2019-07-25 15:28:29:246 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-07-25 15:28:29:247 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell appops set io.appium.settings android\:mock_location allow'
+2019-07-25 15:28:29:927 [Logcat] Starting logcat capture
+2019-07-25 15:28:30:563 [AndroidDriver] Enabling Unicode keyboard support
+2019-07-25 15:28:30:564 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell settings get secure default_input_method'
+2019-07-25 15:28:31:909 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-07-25 15:28:31:910 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-07-25 15:28:31:911 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime enable io.appium.settings/.UnicodeIME'
+2019-07-25 15:28:33:301 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime set io.appium.settings/.UnicodeIME'
+2019-07-25 15:28:34:653 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-07-25 15:28:34:654 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-07-25 15:28:35:335 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-07-25 15:28:35:336 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-07-25 15:28:35:336 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server'
+2019-07-25 15:28:36:621 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.0' >= '3.8.0')
+2019-07-25 15:28:36:622 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-07-25 15:28:36:623 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk
+2019-07-25 15:28:36:624 [ADB] Using 'apksigner.bat' from 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat'
+2019-07-25 15:28:36:625 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.8.0.apk"]'
+2019-07-25 15:28:42:488 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-07-25 15:28:42:489 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-07-25 15:28:42:489 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-07-25 15:28:42:490 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-07-25 15:28:42:491 [ADB] 
+2019-07-25 15:28:42:491 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' is already signed.
+2019-07-25 15:28:42:492 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-07-25 15:28:42:493 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys package io.appium.uiautomator2.server.test'
+2019-07-25 15:28:43:179 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-07-25 15:28:43:180 [ADB] Checking app cert for C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-07-25 15:28:43:181 [ADB] Starting 'D:\android-sdk-windows\build-tools\29.0.1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\jinshan.sandy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-07-25 15:28:48:918 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-07-25 15:28:48:919 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-07-25 15:28:48:920 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-07-25 15:28:48:921 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-07-25 15:28:48:921 [ADB] 
+2019-07-25 15:28:48:922 [ADB] 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-07-25 15:28:48:922 [UiAutomator2] Server packages are not going to be (re)installed
+2019-07-25 15:28:48:923 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-07-25 15:28:48:923 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell pm list instrumentation'
+2019-07-25 15:28:50:268 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-07-25 15:28:50:268 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8218
+2019-07-25 15:28:50:269 [ADB] Forwarding system: 8218 to device: 6790
+2019-07-25 15:28:50:269 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ forward tcp\:8218 tcp\:6790'
+2019-07-25 15:28:50:865 [UiAutomator2] No app capability. Assuming it is already on the device
+2019-07-25 15:28:50:866 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-07-25 15:28:50:903 [UiAutomator2] The following obsolete sessions are still running: ["4e78a103-c6e0-414e-a435-e3b175343120"]
+2019-07-25 15:28:50:904 [UiAutomator2] Cleaning up the obsolete sessions
+2019-07-25 15:28:51:990 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am force-stop io.appium.uiautomator2.server.test'
+2019-07-25 15:28:53:249 [UiAutomator2] Starting UIAutomator2 server 3.8.0
+2019-07-25 15:28:53:251 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.8.0.apk' and test from 'C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-uiautomator2-server@3.8.0@appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-07-25 15:28:53:251 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-07-25 15:28:53:252 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","79BQSDS5Y5GCZ","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-07-25 15:28:54:261 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-25 15:28:54:263 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8218/wd/hub/status] with no body
+2019-07-25 15:28:54:273 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-25 15:28:55:276 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-25 15:28:55:276 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8218/wd/hub/status] with no body
+2019-07-25 15:28:55:286 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-25 15:28:55:309 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-07-25 15:28:56:288 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-25 15:28:56:290 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8218/wd/hub/status] with no body
+2019-07-25 15:28:56:299 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-25 15:28:57:302 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-25 15:28:57:302 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8218/wd/hub/status] with no body
+2019-07-25 15:28:57:322 [WD Proxy] Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2019-07-25 15:28:57:323 [WD Proxy] Determined the downstream protocol for the proxy as 'MJSONWP'
+2019-07-25 15:28:57:324 [UiAutomator2] The initialization of the instrumentation process took 4073ms
+2019-07-25 15:28:57:325 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-07-25 15:28:57:326 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8218/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true},"platformName":"android","appActivity":".global.ui.activity.SplashActivity","appPackage":"com.sdo.qihang.wenbo","deviceName":"79BQSDS5Y5GCZ","noReset":true,"noSign":true,"platformVersion":"7.0","resetKeyboard":true,"udid":"79BQSDS5Y5GCZ","unicodeKeyboard":true,"deviceUDID":"79BQSDS5Y5GCZ"}}
+2019-07-25 15:28:57:341 [WD Proxy] Got response with status 200: {"sessionId":"7c13bbde-0e67-4eb4-b7bd-7231b87af7d0","status":0,"value":"Created Session"}
+2019-07-25 15:28:57:349 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8218/wd/hub/session/7c13bbde-0e67-4eb4-b7bd-7231b87af7d0/appium/device/info] with no body
+2019-07-25 15:28:57:387 [WD Proxy] Got response with status 200: {"sessionId":"7c13bbde-0e67-4eb4-b7bd-7231b87af7d0","status":0,"value":{"androidId":"dce7f5af95551f9c","manufacturer":"Meizu","model":"PRO 7-S","brand":"Meizu","apiVersion":"24","platformVersion":"7.0","carrierName":"","realDisplaySize":"1080x1920","displayDensity":480,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"BBY_TEST_5G\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-55,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2019-07-25 15:28:57:389 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell dumpsys window'
+2019-07-25 15:28:58:070 [AndroidDriver] Screen is locked, trying to unlock
+2019-07-25 15:28:58:071 [AndroidDriver] Using app unlock, this is going to be deprecated!
+2019-07-25 15:28:58:072 [AndroidDriver] Unlocking screen
+2019-07-25 15:28:58:072 [AndroidDriver] Launching .Unlock
+2019-07-25 15:28:58:072 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am start -n io.appium.settings/.Unlock -c android.intent.category.LAUNCHER -a android.intent.action.MAIN -f 0x10200000'
+2019-07-25 15:29:00:467 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity'. Starting it ourselves
+2019-07-25 15:29:00:469 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am start -W -n com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-07-25 15:29:20:495 [UiAutomator2] Deleting UiAutomator2 session
+2019-07-25 15:29:20:496 [UiAutomator2] Deleting UiAutomator2 server session
+2019-07-25 15:29:20:496 [WD Proxy] Matched '/' to command name 'deleteSession'
+2019-07-25 15:29:20:497 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8218/wd/hub/session/7c13bbde-0e67-4eb4-b7bd-7231b87af7d0] with no body
+2019-07-25 15:29:20:558 [WD Proxy] Got response with status 200: {"sessionId":"7c13bbde-0e67-4eb4-b7bd-7231b87af7d0","status":0,"value":"Session deleted"}
+2019-07-25 15:29:20:558 [UiAutomator2] Resetting IME to 'io.appium.settings/.UnicodeIME'
+2019-07-25 15:29:20:559 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell ime set io.appium.settings/.UnicodeIME'
+2019-07-25 15:29:21:341 [Instrumentation] .
+2019-07-25 15:29:21:945 [Instrumentation] Time: 26.058
+2019-07-25 15:29:21:945 [Instrumentation] 
+2019-07-25 15:29:21:946 [Instrumentation] OK (1 test)
+2019-07-25 15:29:21:983 [Instrumentation] The process has exited with code 0
+2019-07-25 15:29:21:999 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am force-stop com.sdo.qihang.wenbo'
+2019-07-25 15:29:23:383 [Logcat] Stopping logcat capture
+2019-07-25 15:29:23:388 [ADB] Removing forwarded port socket connection: 8218 
+2019-07-25 15:29:23:389 [ADB] Running 'D:\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 79BQSDS5Y5GCZ forward --remove tcp\:8218'
+2019-07-25 15:29:24:003 [BaseDriver] Event 'newSessionStarted' logged at 1564039764002 (15:29:24 GMT+0800 (GMT+08:00))
+2019-07-25 15:29:24:016 [W3C] Encountered internal error running command: Error: Cannot start the 'com.sdo.qihang.wenbo' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'D\:\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 79BQSDS5Y5GCZ shell am start -W -n com.sdo.qihang.wenbo/.global.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+2019-07-25 15:29:24:017 [W3C]     at ADB.startApp (C:\Users\jinshan.sandy\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-adb@7.11.0@appium-adb\lib\tools\apk-utils.js:152:11)
+2019-07-25 15:29:24:034 [HTTP] <-- POST /wd/hub/session 500 61446 ms - 1855
+2019-07-25 15:29:24:034 [HTTP] 
